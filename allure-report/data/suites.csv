@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11628","Test2 in playwright","Microsoft Edge","Wed Jul 02 12:43:17 IST 2025","failed","Wed Jul 02 12:43:29 IST 2025","playwright parallel test example","Chapter4\parallel.spec.ts","",""
+"","11720","Test1 in playwright","Microsoft Edge","Wed Jul 02 12:43:17 IST 2025","passed","Wed Jul 02 12:43:29 IST 2025","playwright parallel test example","Chapter4\parallel.spec.ts","",""

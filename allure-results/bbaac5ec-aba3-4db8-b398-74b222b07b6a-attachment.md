@@ -1,0 +1,397 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Playwright API
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DPlaywright%252BAPI&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Playlists"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - link "Your DSA Preparation Starts Here":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cg1v1e5lmaMGdId6r88EPz76LsQiDnLL3fv-j57SaFLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCUSfPg6UrST6oAwTIAwqqBKICT9AXPcBtnScDs9FW-NZ4qqdLrFBqhSo5lvnpi6IDT3yqEBiGNUHRm-SMz85uj8duJ5Z8F77v8Ml4FGRR8thDQ53jkm06-CkY-mry6li55B1_nqYqu6R631VzK8_0makzdJ2lQpzB9lHQKLN6FAyziouJJFE2vQPRdP-zGmpKnRJiMCBpLrhZ__kp2a2i6vgrCg6ZW-PLHBN346nHr0VXelDJozqtLRqUzLyrzhaZVDUaiwz-vBlqPWTDysooVUO5IVGzeu66hBZUFQtuTiJKKUT8WahYQGh3GZwqzJgGWqMcEtCIaBdkOIB5k7pv3axc_iq75h5BucaF7dKTqRUToEGlg9YzHrzTBqrfCe5ZHwXus4N4YrN3OmZ1mzkl81oUYr6SBQgIE3iqhciuGKAGboAHlO_AqxiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4KqsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRY4OjT2_igjgOaCSpodHRwOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RzYV9jb3Vyc2WxCR95kvOHpapjyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g21AWh0dHA6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZHNhX2NvdXJzZT91dG1fY2FtcGFpZ249U0RFLUdMUC1EaXJlY3QtMTdBcHJpbDI1JnV0bV9tZWRpdW09RGlzcGxheSZ1dG1fc291cmNlPUdvb2dsZS1BZHMmUmVmPUdvb2dsZUFkcy1TREUtR0xQLWludC1EU0EtRGlyZWN0LTMwQXByaWwyNSZnYWRfc291cmNlPTK4E____________wGIFAOwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1MksNiHgCHquhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYASAAEgJpofD_BwE&num=1&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_3Uor_X-nB5fEDHY4LeUZOl_Dmqww&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Tackle advanced DSA with mentorship, projects & peer coding drills.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cg1v1e5lmaMGdId6r88EPz76LsQiDnLL3fv-j57SaFLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCUSfPg6UrST6oAwTIAwqqBKICT9AXPcBtnScDs9FW-NZ4qqdLrFBqhSo5lvnpi6IDT3yqEBiGNUHRm-SMz85uj8duJ5Z8F77v8Ml4FGRR8thDQ53jkm06-CkY-mry6li55B1_nqYqu6R631VzK8_0makzdJ2lQpzB9lHQKLN6FAyziouJJFE2vQPRdP-zGmpKnRJiMCBpLrhZ__kp2a2i6vgrCg6ZW-PLHBN346nHr0VXelDJozqtLRqUzLyrzhaZVDUaiwz-vBlqPWTDysooVUO5IVGzeu66hBZUFQtuTiJKKUT8WahYQGh3GZwqzJgGWqMcEtCIaBdkOIB5k7pv3axc_iq75h5BucaF7dKTqRUToEGlg9YzHrzTBqrfCe5ZHwXus4N4YrN3OmZ1mzkl81oUYr6SBQgIE3iqhciuGKAGboAHlO_AqxiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4KqsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRY4OjT2_igjgOaCSpodHRwOi8vd3d3LmJvc3Njb2RlcmFjYWRlbXkuY29tL2RzYV9jb3Vyc2WxCR95kvOHpapjyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g21AWh0dHA6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZHNhX2NvdXJzZT91dG1fY2FtcGFpZ249U0RFLUdMUC1EaXJlY3QtMTdBcHJpbDI1JnV0bV9tZWRpdW09RGlzcGxheSZ1dG1fc291cmNlPUdvb2dsZS1BZHMmUmVmPUdvb2dsZUFkcy1TREUtR0xQLWludC1EU0EtRGlyZWN0LTMwQXByaWwyNSZnYWRfc291cmNlPTK4E____________wGIFAOwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF1MksNiHgCHquhcGKAAwADgB0BgB8BgB&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYASAAEgJpofD_BwE&num=1&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_3Uor_X-nB5fEDHY4LeUZOl_Dmqww&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Bosscoder Academy
+  - button "My Ad Center"
+  - heading "Playwright API Testing by Testers Talk☑️" [level=3]:
+    - link "Playwright API Testing by Testers Talk☑️":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - heading "Playwright with Javascript tutorials" [level=3]:
+    - link "Playwright with Javascript tutorials":
+      - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-&pp=0gcJCV8EOCosWNin
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - link "Playlist":
+    - /url: /@sdetpavan
+  - link "Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress | Part 1 · 24:31":
+    - /url: /watch?v=yOuElUSfAs8&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - link "Playwright with Javascript | Installation | Part 2 · 28:05":
+    - /url: /watch?v=ldEqdMGyh9Y&list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - link "View full playlist":
+    - /url: /playlist?list=PLUDwpEzHYYLsw33jpra65LIvX1nKWpp7-
+  - 'link "Playwright Essentials: API Testing & Network Mocking"':
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjV_uLb-KCOAxWONYMDHU-cMu8YABAAGgJzZg&co=1&gclid=EAIaIQobChMI1f7i2_igjgMVjjWDAx1PnDLvEAEYASAAEgK9QvD_BwE&num=1&sig=AOD64_0-cswJd0mI9YJMf7F9dua1l7581Q&adurl=https://www.educative.io/courses/lta/a-front-end-web-developers-guide-to-testing/playwright-essentials-api-testing-network-mocking%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=0
+  - link "Develop fundamental concepts and master patterns to answer coding interview questions. 2+ Million developers trust Educative to...":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjV_uLb-KCOAxWONYMDHU-cMu8YABAAGgJzZg&co=1&gclid=EAIaIQobChMI1f7i2_igjgMVjjWDAx1PnDLvEAEYASAAEgK9QvD_BwE&num=1&sig=AOD64_0-cswJd0mI9YJMf7F9dua1l7581Q&adurl=https://www.educative.io/courses/lta/a-front-end-web-developers-guide-to-testing/playwright-essentials-api-testing-network-mocking%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=7
+  - text: Sponsored · https://www.educative.io/
+  - button "My Ad Center"
+  - heading "Playwright API Testing Demo for Beginners 34 minutes" [level=3]:
+    - link "Playwright API Testing Demo for Beginners 34 minutes":
+      - /url: /watch?v=EEjyLfp6DoQ&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: Playwright API Testing Demo for Beginners
+  - button "Action menu"
+  - text: 65K views •1 year ago
+  - link "Go to channel":
+    - /url: /@RaghavPal
+  - link "Automation Step by Step":
+    - /url: /@RaghavPal
+  - img "Verified":
+    - paragraph
+  - text: "*API Testing with Playwright - Project Setup* Step 1 - Create a new folder for API Testing Project Step 2 - Open the folder in VS ..."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - heading "Playwright with Java latest] - UI + API Automation + End To End Framework" [level=3]:
+    - link "Playwright with Java latest] - UI + API Automation + End To End Framework":
+      - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - link "Playlist":
+    - /url: /@naveenautomationlabs
+  - link "#1 - Playwright - Test Automation Tool | Overview & Introduction · 24:44":
+    - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "#2 - Cypress vs Playwright · 19:52":
+    - /url: /watch?v=7Fyfc7zD4V4&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "View full playlist":
+    - /url: /playlist?list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "Python Using AI":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3kNge5lmaMGdId6r88EPz76LsQjNrsSYgAHB6orizRNkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmA_9QpqQJRJ8-DpStJPqgDBMgDCqoEmwJP0Mj1Z1eEjDowegcDoXu2sGqqWVmAITuA94Grtl5MYL0xHo8GRNqU55jVznSrzmIjnzYzorLz1W81YljD6W0rn9zPaiL6HRHAZtvAb9PzICabpiqSs23xUnMpzrqTqUdjhqVNg7XuVZ80sXcSH4XYxa9hHiq_Dtdn4LUNQx3Bf2AsJ2krvVjm-SHZrat2yRTPeOEC7dNHHm30uJyuTxTDPpcOTOl0FIyXsbHZB8JVP1nHEfbgHmM6YpDN3HZURbAMQ65A7bbcNEFJInVdMlozWbBwjDqBOj8BnI9qWgiaab9m9djp6oLDxDS6ELo1nUyUgkwjFJbxTbPGX2q4MThKGsyFCDzbfFKZAOo5waPtn9edm9DVN2uQt_a9kgUICBN4_e7I4QSgBm6AB9m4z7QEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODo09v4oI4DmgksaHR0cHM6Ly9haWZvcnRlY2hpZXMuaW4vcHl0aG9uLXVzaW5nLWFpLWdhMi-xCTkhKnLQa7ZnyAkAmAsBugs1CAMQBRgWIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgbQCxKaDQESqg0CSU7IDQHSDZMBaHR0cHM6Ly9haWZvcnRlY2hpZXMuaW4vcHl0aG9uLXVzaW5nLWFpLWdhMi8_JnV0bV9tZWRpdW09cG1heF9GZWIxNSZ1dG1fY2FtcGFpZ249MjIyNDIwNDY3NzgmdXRtX3Rlcm09JnV0bV9jb250ZW50PSZ1dG1faWQ9MjIyNDIwNDY3NzgmZ2FkX3NvdXJjZT0yuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRe4I7hvXT6Yw7oXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYAiAAEgKYmPD_BwE&num=2&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_23Aqmdv8aKf8zkcLAP-sw9JryqvA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Learn from experienced mentors and start your journey to becoming an python expert.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3kNge5lmaMGdId6r88EPz76LsQjNrsSYgAHB6orizRNkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmA_9QpqQJRJ8-DpStJPqgDBMgDCqoEmwJP0Mj1Z1eEjDowegcDoXu2sGqqWVmAITuA94Grtl5MYL0xHo8GRNqU55jVznSrzmIjnzYzorLz1W81YljD6W0rn9zPaiL6HRHAZtvAb9PzICabpiqSs23xUnMpzrqTqUdjhqVNg7XuVZ80sXcSH4XYxa9hHiq_Dtdn4LUNQx3Bf2AsJ2krvVjm-SHZrat2yRTPeOEC7dNHHm30uJyuTxTDPpcOTOl0FIyXsbHZB8JVP1nHEfbgHmM6YpDN3HZURbAMQ65A7bbcNEFJInVdMlozWbBwjDqBOj8BnI9qWgiaab9m9djp6oLDxDS6ELo1nUyUgkwjFJbxTbPGX2q4MThKGsyFCDzbfFKZAOo5waPtn9edm9DVN2uQt_a9kgUICBN4_e7I4QSgBm6AB9m4z7QEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODo09v4oI4DmgksaHR0cHM6Ly9haWZvcnRlY2hpZXMuaW4vcHl0aG9uLXVzaW5nLWFpLWdhMi-xCTkhKnLQa7ZnyAkAmAsBugs1CAMQBRgWIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgbQCxKaDQESqg0CSU7IDQHSDZMBaHR0cHM6Ly9haWZvcnRlY2hpZXMuaW4vcHl0aG9uLXVzaW5nLWFpLWdhMi8_JnV0bV9tZWRpdW09cG1heF9GZWIxNSZ1dG1fY2FtcGFpZ249MjIyNDIwNDY3NzgmdXRtX3Rlcm09JnV0bV9jb250ZW50PSZ1dG1faWQ9MjIyNDIwNDY3NzgmZ2FkX3NvdXJjZT0yuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRe4I7hvXT6Yw7oXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYAiAAEgKYmPD_BwE&num=2&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_23Aqmdv8aKf8zkcLAP-sw9JryqvA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · AI For Techies
+  - button "My Ad Center"
+  - 'heading "Automation Testing Using Playwright with Java: Complete Web & API Automation Framework Series" [level=3]':
+    - 'link "Automation Testing Using Playwright with Java: Complete Web & API Automation Framework Series"':
+      - /url: /watch?v=EfRAjmsEQ3k&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+  - link "Mukesh otwani":
+    - /url: /@Mukeshotwani
+  - link "Playlist":
+    - /url: /@Mukeshotwani
+  - link "How To Install Playwright With Java | Playwright Java Tutorial · 42:09":
+    - /url: /watch?v=EfRAjmsEQ3k&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+  - link "How To Write First Test Case In Playwright | Playwright Java Tutorial · 34:59":
+    - /url: /watch?v=5z1jodwXtFw&list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+  - link "View full playlist":
+    - /url: /playlist?list=PL6flErFppaj0pscPIPA_Cxhil6ZDeFuJJ
+  - heading "Playwright with Javascript | Rest API Testing | HTTP Requests |Get,Post,Put & Delete | Part 39 31 minutes" [level=3]:
+    - link "Playwright with Javascript | Rest API Testing | HTTP Requests |Get,Post,Put & Delete | Part 39 31 minutes":
+      - /url: /watch?v=I7qNaLmq6Cg&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: Playwright with Javascript | Rest API Testing | HTTP Requests |Get,Post,Put & Delete | Part 39
+  - button "Action menu"
+  - text: 35K views •1 year ago
+  - link "Go to channel":
+    - /url: /@sdetpavan
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - img "Verified":
+    - paragraph
+  - text: "Udemy Courses ‍ ‍ ########################################## Playwright with TypeScript ..."
+  - tooltip "tooltip"
+  - heading "Playwright Tutorials with TypeScript / JavaScript | API Testing" [level=3]:
+    - link "Playwright Tutorials with TypeScript / JavaScript | API Testing":
+      - /url: /watch?v=BbgwxmnO_RA&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+  - link "WishInfinite":
+    - /url: /@WishInfinite
+  - link "Playlist":
+    - /url: /@WishInfinite
+  - link "Introduction of API With Playwright | Rest API | Playwright Tutorial · 18:47":
+    - /url: /watch?v=BbgwxmnO_RA&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+  - link "Get Call for API Testing with Playwright | Pass BaseURL and Headers | Playwright Tutorial · 1:04:52":
+    - /url: /watch?v=GrQiVGaYpWo&list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+  - link "View full playlist":
+    - /url: /playlist?list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+  - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3]:
+    - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes":
+      - /url: /watch?v=lM-lqPun9P8&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+  - button "Action menu"
+  - text: 29K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: Playwright API Testing - Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source ...
+  - tooltip "tooltip"
+  - text: 15 chapters
+  - button "Playwright API Testing | Setup playwright api testing | Postman collections Playwright github repo | Create POST api request in playwright | Validate status code in playwright | Validate api response in playwright | Playwright Post api request | Playwright Post api request using dynamic request body | Post api request using dynamic json in playwright | Get api request in playwright | Query parameters in playwright | Playwright Put api request | Patch api request in playwright | Playwright Delete api request | Allure report with Playwright"
+  - button "More"
+  - 'heading "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison 17 minutes" [level=3]':
+    - 'link "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison 17 minutes"':
+      - /url: /watch?v=WLWuzXiyxco&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison"
+  - button "Action menu"
+  - text: 90 views •1 day ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison | Playwright Automation Tutorial: ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - img "4K":
+    - paragraph: 4K
+  - link "Quantum Compuitng and AI course by QPiAI":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CHiRIe5lmaMGdId6r88EPz76LsQjKnoangAHXyOTWkRSwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpNqJwgGpAlEnz4OlK0k-qAMEyAMKqgSiAk_QFz3AbZ0nA7PRVvjWeKqnS6xQaoUqOZb56YuiA098qhAYhjVB0ZvkjM_Obo_HbieWfBe-7_DJeBRkUfLYQ0Od45JtOvgpGPpq8upYueQdf56mKruket9VcyvP9JmpM3SdpUKcwfZR0CizehQMs4qLiSRRNr0D0XT_sxpqSp0SYjAgaS64Wf_5Kdmtour4KwoOmVvjyxwTd-Opx69FV3pQyaM6rS0alMy8q84WmVQ1GosM_rwZaj1kw8rKKFVDuSFRs3ruuoQWVBULbk4iSilE_FmoWEBodxmcXoSYBlqjHFiGtkQSZDjCG8Gqdd2sXP4qu-Ye2Gj3he3Sk6kVE6Ba14PoBR6O3jSp3wnuWR8F7rODK3WCOSRmdZs5JYkyFxGWkgUICBN46OeavgKgBm6AB8Sl9r0CkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODo09v4oI4DmgkraHR0cHM6Ly9xcGlhaS1leHBsb3Jlci50ZWNoL3F1YW50dW0tZ2FkMS13cLEJB8YUlek1Y8_ICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDThodHRwczovL3FwaWFpLWV4cGxvcmVyLnRlY2gvcXVhbnR1bS1nYWQxLXdwP2dhZF9zb3VyY2U9MrgT____________AYgUC7AUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXJE3aQMfxlGe6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYAyAAEgJAtPD_BwE&num=3&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_1luP3VaQDaSjGtrSv0VY7k_z8x0A&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Upgrade Your Professional Skillset with QpiAI Certified Quantum Computing!":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CHiRIe5lmaMGdId6r88EPz76LsQjKnoangAHXyOTWkRSwkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABpNqJwgGpAlEnz4OlK0k-qAMEyAMKqgSiAk_QFz3AbZ0nA7PRVvjWeKqnS6xQaoUqOZb56YuiA098qhAYhjVB0ZvkjM_Obo_HbieWfBe-7_DJeBRkUfLYQ0Od45JtOvgpGPpq8upYueQdf56mKruket9VcyvP9JmpM3SdpUKcwfZR0CizehQMs4qLiSRRNr0D0XT_sxpqSp0SYjAgaS64Wf_5Kdmtour4KwoOmVvjyxwTd-Opx69FV3pQyaM6rS0alMy8q84WmVQ1GosM_rwZaj1kw8rKKFVDuSFRs3ruuoQWVBULbk4iSilE_FmoWEBodxmcXoSYBlqjHFiGtkQSZDjCG8Gqdd2sXP4qu-Ye2Gj3he3Sk6kVE6Ba14PoBR6O3jSp3wnuWR8F7rODK3WCOSRmdZs5JYkyFxGWkgUICBN46OeavgKgBm6AB8Sl9r0CkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODo09v4oI4DmgkraHR0cHM6Ly9xcGlhaS1leHBsb3Jlci50ZWNoL3F1YW50dW0tZ2FkMS13cLEJB8YUlek1Y8_ICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDThodHRwczovL3FwaWFpLWV4cGxvcmVyLnRlY2gvcXVhbnR1bS1nYWQxLXdwP2dhZF9zb3VyY2U9MrgT____________AYgUC7AUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXJE3aQMfxlGe6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIgcfV2_igjgMV3tU8Ah1P3yKGEAEYAyAAEgJAtPD_BwE&num=3&cid=CAASFeRok1TBvVc_DPCgenxYg7i0m1TeSQ&sig=AOD64_1luP3VaQDaSjGtrSv0VY7k_z8x0A&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · QpiAI India Pvt Limited
+  - button "My Ad Center"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - 'heading "#19 Does Playwright supports API Testing? #playwright #testing #automation #tutorial, 2.9 thousand views - play Short" [level=3]':
+    - 'link "#19 Does Playwright supports API Testing? #playwright #testing #automation #tutorial"':
+      - /url: /shorts/T34vwJx2rHI
+  - button "More actions"
+  - 'heading "Selenium Vs Playwright : Which Tool Is Better, 87 thousand views - play Short" [level=3]':
+    - 'link "Selenium Vs Playwright : Which Tool Is Better"':
+      - /url: /shorts/ktzCWrO44wY
+  - button "More actions"
+  - 'heading "Here for you - Playwright Beginner tutorials | #AskRaghav, 36 thousand views - play Short" [level=3]':
+    - 'link "Here for you - Playwright Beginner tutorials | #AskRaghav"':
+      - /url: /shorts/sR6yqAxTGdY
+  - button "More actions"
+  - heading "Playwright Tutorial | Read Test data from JSON File | Parameterize Tests, 1.7 thousand views - play Short" [level=3]:
+    - link "Playwright Tutorial | Read Test data from JSON File | Parameterize Tests":
+      - /url: /shorts/PmU2GhDnki0
+  - button "More actions"
+  - heading "TIL — Playwright Supports Simple API Schema Validation!, 2.4 thousand views - play Short" [level=3]:
+    - link "TIL — Playwright Supports Simple API Schema Validation!":
+      - /url: /shorts/BelsfcK53yM
+  - button "More actions"
+  - heading "10X Faster Testing?! Playwright vs Selenium, 33 thousand views - play Short" [level=3]:
+    - link "10X Faster Testing?! Playwright vs Selenium":
+      - /url: /shorts/eBT4hQscYog
+  - button "More actions"
+  - button "Next"
+  - heading "Playwright API Testing" [level=3]:
+    - link "Playwright API Testing":
+      - /url: /watch?v=S12sspgH8es&list=PL-hNDoK1-od_HpjnFwFZnjKpIs_D-lEpn
+  - link "Kaniel Outis":
+    - /url: /@kanieloutis3751
+  - link "Playlist":
+    - /url: /@kanieloutis3751
+  - 'link "Playwright API Testing Tutorial #1 - Quick Project Setup · 2:18"':
+    - /url: /watch?v=S12sspgH8es&list=PL-hNDoK1-od_HpjnFwFZnjKpIs_D-lEpn
+  - 'link "Playwright API Testing Tutorial #2 - Simple API Test · 10:31"':
+    - /url: /watch?v=umHMs56_YWA&list=PL-hNDoK1-od_HpjnFwFZnjKpIs_D-lEpn
+  - link "View full playlist":
+    - /url: /playlist?list=PL-hNDoK1-od_HpjnFwFZnjKpIs_D-lEpn
+  - heading "How to test and monitor your APIs with Playwright 9 minutes, 51 seconds" [level=3]:
+    - link "How to test and monitor your APIs with Playwright 9 minutes, 51 seconds":
+      - /url: /watch?v=vuabXC46KkM&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: How to test and monitor your APIs with Playwright
+  - button "Action menu"
+  - text: 16K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ChecklyHQ
+  - link "Checkly":
+    - /url: /@ChecklyHQ
+  - text: In today's video, we explore a lesser-known feature of Microsoft's Playwright - API Testing. We'll illustrate how to use Playwright for ...
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - text: 11 chapters
+  - 'button "Intro | GraphQL example API | The API testing test case | Making requests with the `request` fixture | Access the response body | Configuring Playwright projects | Adding assertions to your API tests | Making multiple requests in a single test case | Filter countries via GraphQL | Playwright API monitoring | Outro"'
+  - button "More"
+  - heading "Playwright API Testing Tutorial" [level=3]:
+    - link "Playwright API Testing Tutorial":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - heading "10X Faster Testing?! Playwright vs Selenium, 33 thousand views - play Short" [level=3]:
+    - link "10X Faster Testing?! Playwright vs Selenium":
+      - /url: /shorts/eBT4hQscYog
+  - button "More actions"
+  - heading "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️, 28 thousand views - play Short" [level=3]:
+    - link "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️":
+      - /url: /shorts/VIaxjCWJ9rE
+  - button "More actions"
+  - 'heading "Playwright Tutorial | Basic Authentication Token for API Testing | API Key Auth #playwright, 1.9 thousand views - play Short" [level=3]':
+    - 'link "Playwright Tutorial | Basic Authentication Token for API Testing | API Key Auth #playwright"':
+      - /url: /shorts/8BmFKL65JoQ
+  - button "More actions"
+  - 'heading "🚀 Elevate Your API Testing Game: Playwright vs. Cypress!, 4.5 thousand views - play Short" [level=3]':
+    - 'link "🚀 Elevate Your API Testing Game: Playwright vs. Cypress!"':
+      - /url: /shorts/TWiKKjeGaLc
+  - button "More actions"
+  - 'heading "Playwright Automation Tool #seleniumwebtesting #seleniumtesting #softwaretesting #testing, 7 thousand views - play Short" [level=3]':
+    - 'link "Playwright Automation Tool #seleniumwebtesting #seleniumtesting #softwaretesting #testing"':
+      - /url: /shorts/fkydu6EsiR4
+  - button "More actions"
+  - heading "Selenium VS Playwright VS Cypress, 13 thousand views - play Short" [level=3]:
+    - link "Selenium VS Playwright VS Cypress":
+      - /url: /shorts/0LKpcArklXk
+  - button "More actions"
+  - button "Next"
+  - heading "Playwright - API Automation with Java - By Naveen AutomationLabs" [level=3]:
+    - link "Playwright - API Automation with Java - By Naveen AutomationLabs":
+      - /url: /watch?v=4pPfoMG2Dlk&list=PLFGoYjJG_fqpkA13xItqpyr5CXu3HEDkj
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - link "Playlist":
+    - /url: /@naveenautomationlabs
+  - link "Part 1 - Playwright Java API Automation | GET Call | Query Parameters · 36:40":
+    - /url: /watch?v=4pPfoMG2Dlk&list=PLFGoYjJG_fqpkA13xItqpyr5CXu3HEDkj
+  - link "Part 2 - Playwright Java API Automation | apiResponse.dispose() method · 16:58":
+    - /url: /watch?v=_NwKTrO9kMw&list=PLFGoYjJG_fqpkA13xItqpyr5CXu3HEDkj
+  - link "View full playlist":
+    - /url: /playlist?list=PLFGoYjJG_fqpkA13xItqpyr5CXu3HEDkj
+  - heading "Playwright API Automation with JavaScript☑️" [level=3]:
+    - link "Playwright API Automation with JavaScript☑️":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THH26-8TItkmNzAybQ9kBUZ5
+  - heading "API Testing with Playwright C#.NET" [level=3]:
+    - link "API Testing with Playwright C#.NET":
+      - /url: /watch?v=o60VrO8-ACE&list=PL6tu16kXT9PqWy5BnJQ6cYJI1Jzo_E9fn
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - link "Playlist":
+    - /url: /@ExecuteAutomation
+  - link "#1 - Introduction and Getting started with REST API Testing in Playwright C#.NET · 12:32":
+    - /url: /watch?v=o60VrO8-ACE&list=PL6tu16kXT9PqWy5BnJQ6cYJI1Jzo_E9fn
+  - link "#2 - POST operation for Bearer token Auth of an REST API in Playwright C#.NET · 9:34":
+    - /url: /watch?v=PDbykd2OTn4&list=PL6tu16kXT9PqWy5BnJQ6cYJI1Jzo_E9fn
+  - link "View full playlist":
+    - /url: /playlist?list=PL6tu16kXT9PqWy5BnJQ6cYJI1Jzo_E9fn
+  - 'heading "PLAYWRIGHT: API Testing (MUST WATCH IT) 18 minutes" [level=3]':
+    - 'link "PLAYWRIGHT: API Testing (MUST WATCH IT) 18 minutes"':
+      - /url: /watch?v=dFLEHJq9iCE&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: "PLAYWRIGHT: API Testing (MUST WATCH IT)"
+  - button "Action menu"
+  - text: 13K views •2 years ago
+  - link "Go to channel":
+    - /url: /@joanmedia
+  - link "JoanMedia":
+    - /url: /@joanmedia
+  - text: "This video reviews the @Playwrightdev basic API Tests Scenarios Documentation: https://playwright.dev/docs/test-api-testing ..."
+  - tooltip "tooltip"
+  - heading "SDETPRO | API Testing with Playwright" [level=3]:
+    - link "SDETPRO | API Testing with Playwright":
+      - /url: /watch?v=E3OR690S9ho&list=PLBNb67lT6eEKcaYltKyDLHV1f9RhguL0j
+  - link "SDET PRO":
+    - /url: /@SDETPRO
+  - link "Playlist":
+    - /url: /@SDETPRO
+  - link "LESSON 01 | API Test with Playwright | Installation and run first script · 18:48":
+    - /url: /watch?v=E3OR690S9ho&list=PLBNb67lT6eEKcaYltKyDLHV1f9RhguL0j
+  - link "LESSON 02 | PlayWright API Testing | APIRequestContext, GET method, get response and verification · 37:19":
+    - /url: /watch?v=ri1RCic0aMU&list=PLBNb67lT6eEKcaYltKyDLHV1f9RhguL0j
+  - link "View full playlist":
+    - /url: /playlist?list=PLBNb67lT6eEKcaYltKyDLHV1f9RhguL0j
+  - heading "Playwright API Automation" [level=3]:
+    - link "Playwright API Automation":
+      - /url: /watch?v=IXp0RXs_sbI&list=PLQKDzuA2cCjpXjzKvUOfvJaWGl9dBWOVo
+  - link "Testing Tutorialspoint":
+    - /url: /@testingtutorialspoint
+  - link "Playlist":
+    - /url: /@testingtutorialspoint
+  - 'link "Part 1: Get Method in Playwright Python API · 20:50"':
+    - /url: /watch?v=IXp0RXs_sbI&list=PLQKDzuA2cCjpXjzKvUOfvJaWGl9dBWOVo
+  - 'link "Part 2: Verify List of Response in Playwright Python API · 15:25"':
+    - /url: /watch?v=0JHVxLuOeC4&list=PLQKDzuA2cCjpXjzKvUOfvJaWGl9dBWOVo
+  - link "View full playlist":
+    - /url: /playlist?list=PLQKDzuA2cCjpXjzKvUOfvJaWGl9dBWOVo
+  - heading "Playwright with Java [2024 latest] - UI + API Automation + End To End Framework| Playwright Tutorial Java" [level=3]:
+    - link "Playwright with Java [2024 latest] - UI + API Automation + End To End Framework| Playwright Tutorial Java":
+      - /url: /watch?v=ycsl8Nd6H4I&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "The Testing Academy":
+    - /url: /@TheTestingAcademy
+  - link "Playlist":
+    - /url: /@TheTestingAcademy
+  - link "Playwright Tutorial Java - Introduction with Notes - Part 1 · 25:00":
+    - /url: /watch?v=ycsl8Nd6H4I&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "Playwright Vs Cypress Vs Selenium | Playwright Tutorial Java series - Part 2 · 10:50":
+    - /url: /watch?v=3eDLhUF2bAk&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "View full playlist":
+    - /url: /playlist?list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - heading "Part 1 - Playwright Java API Automation | GET Call | Query Parameters 36 minutes" [level=3]:
+    - link "Part 1 - Playwright Java API Automation | GET Call | Query Parameters 36 minutes":
+      - /url: /watch?v=4pPfoMG2Dlk&pp=ygUOUGxheXdyaWdodCBBUEk%3D
+      - text: Part 1 - Playwright Java API Automation | GET Call | Query Parameters
+  - button "Action menu"
+  - text: 31K views •2 years ago
+  - link "Go to channel":
+    - /url: /@naveenautomationlabs
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - img "Verified":
+    - paragraph
+  - text: In this video, I have explained how to call get api with playwright java library. How to fetch the api response, json response body, ...
+  - tooltip "tooltip"
+```

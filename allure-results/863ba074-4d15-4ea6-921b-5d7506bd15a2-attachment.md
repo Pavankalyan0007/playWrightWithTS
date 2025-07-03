@@ -1,0 +1,440 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: pavan kalyan elakya
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dpavan%252Bkalyan%252Belakya&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - text: "Did you mean:"
+  - link "pawan kalyan elakkiya":
+    - /url: /results?search_query=pawan+kalyan+elakkiya
+  - heading "Old Actor Pakija Heartfelt Reaction Over Pawan Kalyan's Financial Help And Support | Sahithi Tv 1 minute, 49 seconds" [level=3]:
+    - link "Old Actor Pakija Heartfelt Reaction Over Pawan Kalyan's Financial Help And Support | Sahithi Tv 1 minute, 49 seconds":
+      - /url: /watch?v=wBWTW3XP5OI&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: Old Actor Pakija Heartfelt Reaction Over Pawan Kalyan's Financial Help And Support | Sahithi Tv
+  - button "Action menu"
+  - text: 20K views •20 hours ago
+  - link "Go to channel":
+    - /url: /@SahithiTv2
+  - link "Sahithi TV":
+    - /url: /@SahithiTv2
+  - img "Verified":
+    - paragraph
+  - text: "Watch here Old Actor Pakija Heartfelt Reaction Over Pawan Kalyan's Financial Help And Support #PawanKalyan #Pakija ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "Shorts" [level=2]
+  - heading "Pawan తో పెట్టుకుంటే చుక్కలే..PAWAN KALYAN I SATYARAJ | viralnews 2.o, 4.9 thousand views - play Short" [level=3]:
+    - link "Pawan తో పెట్టుకుంటే చుక్కలే..PAWAN KALYAN I SATYARAJ | viralnews 2.o":
+      - /url: /shorts/Cdf0P81Q8KE
+  - button "More actions"
+  - 'heading "నెక్స్ట్ ''సీఎం'' నాతమ్ముడు Pawan Kalyan : పాకీజా | Actress Pakija Emotional Words About Pawan Kalyan, 33 thousand views - play Short" [level=3]':
+    - 'link "నెక్స్ట్ ''సీఎం'' నాతమ్ముడు Pawan Kalyan : పాకీజా | Actress Pakija Emotional Words About Pawan Kalyan"':
+      - /url: /shorts/mMlN2t2-O7s
+  - button "More actions"
+  - 'heading "Pavan Kalyan🤩 vs YS Jagan #pavankalyan #ycp #tdp #janasena @MAHASENA-Rajesh @ISA001, 51 thousand views - play Short" [level=3]':
+    - 'link "Pavan Kalyan🤩 vs YS Jagan #pavankalyan #ycp #tdp #janasena @MAHASENA-Rajesh @ISA001"':
+      - /url: /shorts/zWeLTTLUMTY
+  - button "More actions"
+  - heading "పాకీజా కు పవన్ ఆర్ధిక సాయం | Pawan Kalyan's financial assistance to Pakeeja | Pallavi Tv, 1.7 thousand views - play Short" [level=3]:
+    - link "పాకీజా కు పవన్ ఆర్ధిక సాయం | Pawan Kalyan's financial assistance to Pakeeja | Pallavi Tv":
+      - /url: /shorts/8wK-RYpb7eU
+  - button "More actions"
+  - heading "The Vibe Is Real | Mood Of Andhra Pradesh Voters | Hello AP Bye Bye YCP | JanaSena | Pawan Kalyan, 12 million views - play Short" [level=3]:
+    - link "The Vibe Is Real | Mood Of Andhra Pradesh Voters | Hello AP Bye Bye YCP | JanaSena | Pawan Kalyan":
+      - /url: /shorts/IFVWbhOBSrs
+  - button "More actions"
+  - button "Show more"
+  - heading "Chiranjeevi about Pawan Kalyan - TV9 by TV9 Telugu Live 1,024,093 views 2 years ago 26 seconds - play Short" [level=3]:
+    - link "Chiranjeevi about Pawan Kalyan - TV9 by TV9 Telugu Live 1,024,093 views 2 years ago 26 seconds - play Short":
+      - /url: /shorts/jVoHer3TEts
+      - text: Chiranjeevi about Pawan Kalyan - TV9
+  - button "Action menu"
+  - text: 1M views •2 years ago
+  - link "Go to channel":
+    - /url: /@TV9TeluguLive
+  - link "TV9 Telugu Live":
+    - /url: /@TV9TeluguLive
+  - img "Verified":
+    - paragraph
+  - text: "#Chiranjeevi #PawanKalyan #tv9telugu."
+  - tooltip "tooltip"
+  - heading "నెత్తి మీద కాలేసి తొక్కుతాం కదా అప్పుడు తెలుస్తుంది జనసేన ఎంతో.. | Pawan Kalyan Speech | JSP | TDP 1 minute, 40 seconds" [level=3]:
+    - link "నెత్తి మీద కాలేసి తొక్కుతాం కదా అప్పుడు తెలుస్తుంది జనసేన ఎంతో.. | Pawan Kalyan Speech | JSP | TDP 1 minute, 40 seconds":
+      - /url: /watch?v=OiIqroi-gz0&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: నెత్తి మీద కాలేసి తొక్కుతాం కదా అప్పుడు తెలుస్తుంది జనసేన ఎంతో.. | Pawan Kalyan Speech | JSP | TDP
+  - button "Action menu"
+  - text: 329K views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: "Follow JanaSena Chief Pawan Kalyan on Facebook : https://www.facebook.com/PawanKalyan JanaSena or JanaSena Party is ..."
+  - tooltip "tooltip"
+  - 'heading "Idhi Power Star Pawan Kalyan maata 😎 💯👌🏻#SixthSenseSeason5 #StarMaa #Ohmkar #Shorts #pawankalyan by Star Maa 7,723,977 views 2 years ago 27 seconds - play Short" [level=3]':
+    - 'link "Idhi Power Star Pawan Kalyan maata 😎 💯👌🏻#SixthSenseSeason5 #StarMaa #Ohmkar #Shorts #pawankalyan by Star Maa 7,723,977 views 2 years ago 27 seconds - play Short"':
+      - /url: /shorts/M6da9XX5wm8
+      - text: "Idhi Power Star Pawan Kalyan maata 😎 💯👌🏻#SixthSenseSeason5 #StarMaa #Ohmkar #Shorts #pawankalyan"
+  - button "Action menu"
+  - text: 7.7M views •2 years ago
+  - link "Go to channel":
+    - /url: /@StarMaaOfficial
+  - link "Star Maa":
+    - /url: /@StarMaaOfficial
+  - text: Trending Follow us on Instagram :https://instagram.com/starmaa?igshid=Yzg5MTU1MDY= Twitter ...
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - heading "The Vibe Is Real | Mood Of Andhra Pradesh Voters | Hello AP Bye Bye YCP | JanaSena | Pawan Kalyan, 12 million views - play Short" [level=3]:
+    - link "The Vibe Is Real | Mood Of Andhra Pradesh Voters | Hello AP Bye Bye YCP | JanaSena | Pawan Kalyan":
+      - /url: /shorts/IFVWbhOBSrs
+  - button "More actions"
+  - heading "PAWAN KALYAN FAN RUNNING FOR PK, 444 thousand views - play Short" [level=3]:
+    - link "PAWAN KALYAN FAN RUNNING FOR PK":
+      - /url: /shorts/iCmEKYOi4M8
+  - button "More actions"
+  - 'heading "#pawankalyan fans girls proposing 😍😅status video #pawankalyanfans #shortsfeed #shortsviral #trending, 942 thousand views - play Short" [level=3]':
+    - 'link "#pawankalyan fans girls proposing 😍😅status video #pawankalyanfans #shortsfeed #shortsviral #trending"':
+      - /url: /shorts/YhUVgmdXoUA
+  - button "More actions"
+  - 'heading "#CMJagan Fires on #PawanKalyan #Chandrababu #Dattaputrudu #YoutubeShorts #Shorts #SakshiTVShorts, 1.3 million views - play Short" [level=3]':
+    - 'link "#CMJagan Fires on #PawanKalyan #Chandrababu #Dattaputrudu #YoutubeShorts #Shorts #SakshiTVShorts"':
+      - /url: /shorts/RCJhR30Lhng
+  - button "More actions"
+  - heading "HELLO AP BYE BYE😆 YCP, 91 thousand views - play Short" [level=3]:
+    - link "HELLO AP BYE BYE😆 YCP":
+      - /url: /shorts/VfHj34UvfCQ
+  - button "More actions"
+  - button "Show more"
+  - 'heading "Hello Andhra bye bye 👋 jagan || #varahiyatra #pawankalyan #whatsappstatus #janasena 32 seconds" [level=3]':
+    - 'link "Hello Andhra bye bye 👋 jagan || #varahiyatra #pawankalyan #whatsappstatus #janasena 32 seconds"':
+      - /url: /watch?v=LT1hISlrThM&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YdIHCQnBCQGHKiGM7w%3D%3D
+      - text: "Hello Andhra bye bye 👋 jagan || #varahiyatra #pawankalyan #whatsappstatus #janasena"
+  - button "Action menu"
+  - text: 119K views •1 year ago
+  - link "Go to channel":
+    - /url: /@pawankalyanvideos
+  - link "Pawan Kalyan videos 💯":
+    - /url: /@pawankalyanvideos
+  - text: "Hello Andhra bye bye jagan #janasena #janasenaparty #pawankalyan #ytstudiovideos #ytviral #ytstudio #yt #whatsappstatus ..."
+  - tooltip "tooltip"
+  - 'heading "హలో ఏపీ - బై బై వైసీపీ | Vibe With #HelloAP_ByeByeYCP | JanaSena | Pawan Kalyan 59 seconds" [level=3]':
+    - 'link "హలో ఏపీ - బై బై వైసీపీ | Vibe With #HelloAP_ByeByeYCP | JanaSena | Pawan Kalyan 59 seconds"':
+      - /url: /watch?v=bSVDUDkEqlw&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: "హలో ఏపీ - బై బై వైసీపీ | Vibe With #HelloAP_ByeByeYCP | JanaSena | Pawan Kalyan"
+  - button "Action menu"
+  - text: 579K views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: Pawan Kalyan in March 2014. JanaSena which means People's Army in Telugu language. To Donate ...
+  - tooltip "tooltip"
+  - heading "See How Pawan Kalyan Hilariously Enjoying Janasena BJP MLA's Funny Skit | Chandra Babu | Sahithi Tv 11 minutes, 55 seconds" [level=3]:
+    - link "See How Pawan Kalyan Hilariously Enjoying Janasena BJP MLA's Funny Skit | Chandra Babu | Sahithi Tv 11 minutes, 55 seconds":
+      - /url: /watch?v=ZdbR2LqhP1w&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: See How Pawan Kalyan Hilariously Enjoying Janasena BJP MLA's Funny Skit | Chandra Babu | Sahithi Tv
+  - button "Action menu"
+  - text: 221K views •3 months ago
+  - link "Go to channel":
+    - /url: /@SahithiTv2
+  - link "Sahithi TV":
+    - /url: /@SahithiTv2
+  - img "Verified":
+    - paragraph
+  - text: "Watch here See How Pawan Kalyan Hilariously Enjoying Janasena BJP MLA's Funny Skit | Chandra Babu #PawanKalyan ..."
+  - tooltip "tooltip"
+  - heading "People also watched" [level=2]
+  - heading "పిఠాపురంలో భారీమెజారిటీతో ఘన విజయం వైపుగా శ్రీ పవన్ కళ్యాణ్ గారు 1 minute, 24 seconds" [level=3]:
+    - link "పిఠాపురంలో భారీమెజారిటీతో ఘన విజయం వైపుగా శ్రీ పవన్ కళ్యాణ్ గారు 1 minute, 24 seconds":
+      - /url: /watch?v=uGoVTAP9ulU&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: పిఠాపురంలో భారీమెజారిటీతో ఘన విజయం వైపుగా శ్రీ పవన్ కళ్యాణ్ గారు
+  - button "Action menu"
+  - text: 357K views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: Pawan Kalyan in March 2014. JanaSena which means People's Army in Telugu language. To Donate ...
+  - tooltip "tooltip"
+  - 'heading "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ ||తుని నియోజకవర్గం 27 minutes" [level=3]':
+    - 'link "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ ||తుని నియోజకవర్గం 27 minutes"':
+      - /url: /watch?v=0dQomKqhg_0&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ ||తుని నియోజకవర్గం"
+  - button "Action menu"
+  - text: 233K views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: "Follow JanaSena Chief Pawan Kalyan on Facebook : https://www.facebook.com/PawanKalyan JanaSena or JanaSena Party is ..."
+  - tooltip "tooltip"
+  - 'heading "Team Thammudu Delicious Discussions| #ThammuduOnJuly4th | Nithiin | Sriram Venu | Raju - Shirish 32 minutes" [level=3]':
+    - 'link "Team Thammudu Delicious Discussions| #ThammuduOnJuly4th | Nithiin | Sriram Venu | Raju - Shirish 32 minutes"':
+      - /url: /watch?v=Pw25mtv5FsA&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: "Team Thammudu Delicious Discussions| #ThammuduOnJuly4th | Nithiin | Sriram Venu | Raju - Shirish"
+  - button "Action menu"
+  - text: 6.1K views •1 hour ago
+  - link "Go to channel":
+    - /url: /@dilraju
+  - link "Dil Raju":
+    - /url: /@dilraju
+  - img "Verified":
+    - paragraph
+  - text: he Fun, Food and Favourite Conversations of team Thammudu. Releasing worldwide on July 4th in theatres. The film stars Nithiin, ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "Mega Family Celebrated Pawan Kalyan Victory | Chiranjeevi | Pawan Kalyan | Shreyas Media 3 minutes, 31 seconds" [level=3]:
+    - link "Mega Family Celebrated Pawan Kalyan Victory | Chiranjeevi | Pawan Kalyan | Shreyas Media 3 minutes, 31 seconds":
+      - /url: /watch?v=UHg0eMfyRP8&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: Mega Family Celebrated Pawan Kalyan Victory | Chiranjeevi | Pawan Kalyan | Shreyas Media
+  - button "Action menu"
+  - text: 671K views •1 year ago
+  - link "Go to channel":
+    - /url: /@shreyasgroup
+  - link "Shreyas Media":
+    - /url: /@shreyasgroup
+  - img "Verified":
+    - paragraph
+  - text: "Watch Mega Family Celebrates #PawanKalyan Victory On #ShreyasMedia #PawanKalyan #Chiranjeevi #janasenaParty \"Unlock ..."
+  - tooltip "tooltip"
+  - text: +6 more
+  - heading "మెగా పవర్ సంబరం | Mega Blessings to Game Changer Pawan Kalyan | JanaSena Party 3 minutes, 31 seconds" [level=3]:
+    - link "మెగా పవర్ సంబరం | Mega Blessings to Game Changer Pawan Kalyan | JanaSena Party 3 minutes, 31 seconds":
+      - /url: /watch?v=6z6CX9PyvcA&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: మెగా పవర్ సంబరం | Mega Blessings to Game Changer Pawan Kalyan | JanaSena Party
+  - button "Action menu"
+  - text: 6.9M views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: Pawan Kalyan in March 2014. JanaSena which means People's Army in Telugu language. To Donate ...
+  - tooltip "tooltip"
+  - 'heading "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ || పిఠాపురం నియోజకవర్గం 26 minutes" [level=3]':
+    - 'link "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ || పిఠాపురం నియోజకవర్గం 26 minutes"':
+      - /url: /watch?v=SPd5Hxfa-qU&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: "Sri #PawanKalyan Full Speech || \"వారాహి విజయ భేరి\" బహిరంగ సభ || పిఠాపురం నియోజకవర్గం"
+  - button "Action menu"
+  - text: 276K views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: "Follow JanaSena Chief Pawan Kalyan on Facebook : https://www.facebook.com/PawanKalyan JanaSena or JanaSena Party is ..."
+  - tooltip "tooltip"
+  - heading "AP BJP Leaders Fires on Chandrababu, Pawan Kalyan | AP Local Body Election 2025 |Lokesh @SakshiTV 2 minutes, 58 seconds" [level=3]:
+    - link "AP BJP Leaders Fires on Chandrababu, Pawan Kalyan | AP Local Body Election 2025 |Lokesh @SakshiTV 2 minutes, 58 seconds":
+      - /url: /watch?v=dddMTyBZfpA&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: AP BJP Leaders Fires on Chandrababu, Pawan Kalyan | AP Local Body Election 2025 |Lokesh @SakshiTV
+  - button "Action menu"
+  - text: 9.6K views •21 hours ago
+  - link "Go to channel":
+    - /url: /@SakshiTV
+  - link "Sakshi TV":
+    - /url: /@SakshiTV
+  - img "Verified":
+    - paragraph
+  - text: AP BJP Leaders Fires on Chandrababu, Pawan Kalyan | AP Local Body Election 2025 | Lokesh Redbook | @SakshiTV ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "జగన్ మాట్లాడితే సింగిల్ సింహం అంటాడు | Pawan Kalyan Counter To Jagan Single Simham Dialogue | JSP by JanaSena Party 4,038,897 views 1 year ago 28 seconds - play Short" [level=3]:
+    - link "జగన్ మాట్లాడితే సింగిల్ సింహం అంటాడు | Pawan Kalyan Counter To Jagan Single Simham Dialogue | JSP by JanaSena Party 4,038,897 views 1 year ago 28 seconds - play Short":
+      - /url: /shorts/YZtImfuFY9M
+      - text: జగన్ మాట్లాడితే సింగిల్ సింహం అంటాడు | Pawan Kalyan Counter To Jagan Single Simham Dialogue | JSP
+  - button "Action menu"
+  - text: 4M views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: Pawan Kalyan in March 2014. JanaSena which means People's Army in Telugu language. To Donate ...
+  - tooltip "tooltip"
+  - heading "ఉధృతంగా వీచే పవనాన్ని ఎవరూ ఆపలేరు | Pawan Kalyan Viral Video - TV9 by TV9 Entertainment 3,361,093 views 2 years ago 26 seconds - play Short" [level=3]:
+    - link "ఉధృతంగా వీచే పవనాన్ని ఎవరూ ఆపలేరు | Pawan Kalyan Viral Video - TV9 by TV9 Entertainment 3,361,093 views 2 years ago 26 seconds - play Short":
+      - /url: /shorts/awWg7vY6CzY
+      - text: ఉధృతంగా వీచే పవనాన్ని ఎవరూ ఆపలేరు | Pawan Kalyan Viral Video - TV9
+  - button "Action menu"
+  - text: 3.3M views •2 years ago
+  - link "Go to channel":
+    - /url: /@TV9Entertainment
+  - link "TV9 Entertainment":
+    - /url: /@TV9Entertainment
+  - img "Verified":
+    - paragraph
+  - text: "#PawanKalyan."
+  - tooltip "tooltip"
+  - heading "సినీ నటి శ్రీమతి వాసుకి 'పవన్ కళ్యాణ్' ఆర్థిక సాయం | Pawan Kalyan | Pakeezah Vasuki | NTV ENT 1 minute, 56 seconds" [level=3]:
+    - link "సినీ నటి శ్రీమతి వాసుకి 'పవన్ కళ్యాణ్' ఆర్థిక సాయం | Pawan Kalyan | Pakeezah Vasuki | NTV ENT 1 minute, 56 seconds":
+      - /url: /watch?v=06A0t2MsfVU&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: సినీ నటి శ్రీమతి వాసుకి 'పవన్ కళ్యాణ్' ఆర్థిక సాయం | Pawan Kalyan | Pakeezah Vasuki | NTV ENT
+  - button "Action menu"
+  - text: 2.4K views •20 hours ago
+  - link "Go to channel":
+    - /url: /@NTVENT
+  - link "NTV Entertainment":
+    - /url: /@NTVENT
+  - img "Verified":
+    - paragraph
+  - text: "pawankalyan #vasuki #tollywoodupdates #NTVEntertainment #NTVENT For more latest updates on news : ▻ Subscribe to NTV ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - 'heading "oh! ♥️two wife of Pawan Kalyan, Pawan Kalyan with two wife#shorts #viral by SS singh G 1,618,370 views 2 years ago 16 seconds - play Short" [level=3]':
+    - 'link "oh! ♥️two wife of Pawan Kalyan, Pawan Kalyan with two wife#shorts #viral by SS singh G 1,618,370 views 2 years ago 16 seconds - play Short"':
+      - /url: /shorts/XrZN5pcWC-I
+      - text: "oh! ♥️two wife of Pawan Kalyan, Pawan Kalyan with two wife#shorts #viral"
+  - button "Action menu"
+  - text: 1.6M views •2 years ago
+  - link "Go to channel":
+    - /url: /@sssinghg2365
+  - link "SS singh G":
+    - /url: /@sssinghg2365
+  - text: ... Kalyan, Pawan Kalyan with two wife#shorts Instagram links https://instagram.com/sssinghg2365?igshid=ZDdkNTZiNTM= ...
+  - tooltip "tooltip"
+  - heading "Senior Comedian Pakeezah Vasuki Emotional Words About Pawan Kalyan | Filmylooks 1 minute, 37 seconds" [level=3]:
+    - link "Senior Comedian Pakeezah Vasuki Emotional Words About Pawan Kalyan | Filmylooks 1 minute, 37 seconds":
+      - /url: /watch?v=tY3r-ttTC00&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: Senior Comedian Pakeezah Vasuki Emotional Words About Pawan Kalyan | Filmylooks
+  - button "Action menu"
+  - text: 3.6K views •20 hours ago
+  - link "Go to channel":
+    - /url: /@Filmylookslive
+  - link "Filmylooks":
+    - /url: /@Filmylookslive
+  - img "Verified":
+    - paragraph
+  - text: "Senior Comedian #PakeezahVasuki Emotional Words About #PawanKalyan For Movie Promotions & Promotional Interviews ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "Hello AP Bye Bye YCP | Pawan Kalyan Birthday Celebrations 2023 by Mana Talk Box 434,475 views 1 year ago 12 seconds - play Short" [level=3]:
+    - link "Hello AP Bye Bye YCP | Pawan Kalyan Birthday Celebrations 2023 by Mana Talk Box 434,475 views 1 year ago 12 seconds - play Short":
+      - /url: /shorts/AodzWKqQtnA
+      - text: Hello AP Bye Bye YCP | Pawan Kalyan Birthday Celebrations 2023
+  - button "Action menu"
+  - text: 434K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ManaTalkBox
+  - link "Mana Talk Box":
+    - /url: /@ManaTalkBox
+  - heading "ఎటు పోతున్నావ్ సేనాని ? || Pavan Kalyan Political Graph Falling Down In AP Politics || Dial News 9 minutes, 41 seconds" [level=3]:
+    - link "ఎటు పోతున్నావ్ సేనాని ? || Pavan Kalyan Political Graph Falling Down In AP Politics || Dial News 9 minutes, 41 seconds":
+      - /url: /watch?v=tRU-RYT3q8A&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: ఎటు పోతున్నావ్ సేనాని ? || Pavan Kalyan Political Graph Falling Down In AP Politics || Dial News
+  - button "Action menu"
+  - text: 1.9K views •16 hours ago
+  - link "Go to channel":
+    - /url: /@dialnewsinfo
+  - link "Dial News":
+    - /url: /@dialnewsinfo
+  - img "Verified":
+    - paragraph
+  - text: ఎటు పోతున్నావ్ సేనాని ? || Pavan Kalyan Political Graph Falling Down In AP Politics || Dial News ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - 'heading "Vakeel Saab Trailer - Pawan Kalyan | Sriram Venu | Thaman S | #VakeelSaabOnApril9th 2 minutes, 10 seconds" [level=3]':
+    - 'link "Vakeel Saab Trailer - Pawan Kalyan | Sriram Venu | Thaman S | #VakeelSaabOnApril9th 2 minutes, 10 seconds"':
+      - /url: /watch?v=P1xKV0Dmetg&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: "Vakeel Saab Trailer - Pawan Kalyan | Sriram Venu | Thaman S | #VakeelSaabOnApril9th"
+  - button "Action menu"
+  - text: 49M views •4 years ago
+  - link "Go to channel":
+    - /url: /@dilraju
+  - link "Dil Raju":
+    - /url: /@dilraju
+  - img "Verified":
+    - paragraph
+  - text: "Power Star #PawanKalyan's #VakeelSaabTrailer Cast - Pawan Kalyan, Prakash Raj, Shruti Haasan, Nivetha Thomas, Anjali, ..."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - img "Closed captions":
+    - paragraph: CC
+  - heading "Common Man Salutes To Pawan Kalyan Great Character Over Helps To Old Actor Pakija | Sahithi Tv 5 minutes, 2 seconds" [level=3]:
+    - link "Common Man Salutes To Pawan Kalyan Great Character Over Helps To Old Actor Pakija | Sahithi Tv 5 minutes, 2 seconds":
+      - /url: /watch?v=7LqpmrsVDlQ&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YQ%3D%3D
+      - text: Common Man Salutes To Pawan Kalyan Great Character Over Helps To Old Actor Pakija | Sahithi Tv
+  - button "Action menu"
+  - text: 22K views •15 hours ago
+  - link "Go to channel":
+    - /url: /@SahithiTv2
+  - link "Sahithi TV":
+    - /url: /@SahithiTv2
+  - img "Verified":
+    - paragraph
+  - text: "Watch here Common Man Salutes To Pawan Kalyan Great Character Over Helps To Old Actor Pakija #PawanKalyan ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - 'heading "Mood of Andhra - Hello AP Bye Bye YCP #VibeWithHelloAP_ByeByeYCP👋 29 seconds" [level=3]':
+    - 'link "Mood of Andhra - Hello AP Bye Bye YCP #VibeWithHelloAP_ByeByeYCP👋 29 seconds"':
+      - /url: /watch?v=n94DZVM-S30&list=RDn94DZVM-S30&start_radio=1&pp=ygUTcGF2YW4ga2FseWFuIGVsYWt5YaAHAQ%3D%3D
+      - text: "Mood of Andhra - Hello AP Bye Bye YCP #VibeWithHelloAP_ByeByeYCP👋"
+  - button "Action menu"
+  - text: 2.6M views •1 year ago
+  - link "Go to channel":
+    - /url: /@JanaSenaParty
+  - link "JanaSena Party":
+    - /url: /@JanaSenaParty
+  - img "Verified":
+    - paragraph
+  - text: "Follow JanaSena Chief Pawan Kalyan on Facebook : https://www.facebook.com/PawanKalyan JanaSena or JanaSena Party is ..."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+```

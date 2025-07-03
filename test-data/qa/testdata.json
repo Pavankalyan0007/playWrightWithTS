@@ -1,0 +1,10 @@
+{
+"TestDataSet1":{
+                    "Skill1":"playwright testing UI",
+                    "Skill2":"Playwright testing API"
+},
+"TestDataSet2":{
+                    "Skill1":"Selenium UI Testing",
+                    "Skill2":"REST Assured API Automation"
+}
+}

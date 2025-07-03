@@ -1,0 +1,442 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Playwright UI
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DPlaywright%252BUI&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Playlists"
+    - tab "Under 4 min"
+    - tab "4 - 20 min"
+    - tab "Over 20 min"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - link "Download UI & UX Testing Tool - Get The Free Trial - Reduce Iteration & Save Time":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjIhoDG-aCOAxWi6xYFHcWSBIgYABAAGgJ0bA&co=1&gclid=EAIaIQobChMIyIaAxvmgjgMVousWBR3FkgSIEAAYASAAEgI4c_D_BwE&sig=AOD64_2e8D-7nDA393lFEnaViD_mVdkPuQ&adurl=https://www.cranksoftware.com/embedded-gui-testing-validator%3Futm_feeditemid%3D%26utm_device%3Dc%26utm_term%3Dui%2520testing%2520framework%26utm_source%3DPaid%2Bsearch%26utm_medium%3DGoogle%26utm_campaign%3DGoogle_Search_APAC_GUI_Terms%26hsa_cam%3D16085258379%26hsa_grp%3D145469619022%26hsa_mt%3Dp%26hsa_src%3Ds%26hsa_ad%3D699161221373%26hsa_acc%3D1493589390%26hsa_net%3Dadwords%26hsa_kw%3Dui%2520testing%2520framework%26hsa_tgt%3Dkwd-321011293811%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D16085258379&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=0
+  - link "From wireframes to complete prototypes, you’ll be able to bring the intended UX to reality. Automate GUI testing during development...":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjIhoDG-aCOAxWi6xYFHcWSBIgYABAAGgJ0bA&co=1&gclid=EAIaIQobChMIyIaAxvmgjgMVousWBR3FkgSIEAAYASAAEgI4c_D_BwE&sig=AOD64_2e8D-7nDA393lFEnaViD_mVdkPuQ&adurl=https://www.cranksoftware.com/embedded-gui-testing-validator%3Futm_feeditemid%3D%26utm_device%3Dc%26utm_term%3Dui%2520testing%2520framework%26utm_source%3DPaid%2Bsearch%26utm_medium%3DGoogle%26utm_campaign%3DGoogle_Search_APAC_GUI_Terms%26hsa_cam%3D16085258379%26hsa_grp%3D145469619022%26hsa_mt%3Dp%26hsa_src%3Ds%26hsa_ad%3D699161221373%26hsa_acc%3D1493589390%26hsa_net%3Dadwords%26hsa_kw%3Dui%2520testing%2520framework%26hsa_tgt%3Dkwd-321011293811%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D16085258379&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=7
+  - text: Sponsored · https://www.cranksoftware.com/gui-testing/free-trial
+  - button "My Ad Center"
+  - 'heading "Playwright''s UI Mode: Watch mode and time travel debugging 6 minutes, 8 seconds" [level=3]':
+    - 'link "Playwright''s UI Mode: Watch mode and time travel debugging 6 minutes, 8 seconds"':
+      - /url: /watch?v=d0u6XhXknzU&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: "Playwright's UI Mode: Watch mode and time travel debugging"
+  - button "Action menu"
+  - text: 31K views •2 years ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Playwright's new UI Mode brings a watch mode together with the trace viewer to create a time-travel debugging experience.
+  - tooltip "tooltip"
+  - 'heading "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds" [level=3]':
+    - 'link "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds"':
+      - /url: /watch?v=X08AwI35xdo&t=23s&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆"
+  - button "Action menu"
+  - text: 56K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ExecuteAutomation
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - text: Discover the ultimate winner in the automation battle as we explore the compelling advantages that propel Playwright to victory ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: Matching chapter
+  - button "0:23 Playwright Modern and Speed"
+  - button "More"
+  - link "Book a flat in Hyderabad":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct39iWppmaPjoFayH4bMP3aWVyAGs1OrRf7Ssya2-FLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGBssyZA6kCUSfPg6UrST6oAwTIAwqqBJoCT9D7T3rHJoBsQ4Zcb6qOTioWBacW_UgNABOb83pdXWRTkVlHFH6e4sv1xhcfi_26G2o_6oyZJUANIHDhNlgEkzBBU7i4gopliiZSfU6pubMPYmw7EOfpuNMb22AuTg9lv3kfMHYt37_YK9I8aKbxkCUI-Cwcb6CYGPebHEp1aplmVcxK7ZOGPUS5Knil9cvbjYum--1TwNISyQx0JGYDobbA6pK8k2d9l0O9wvpb2YTQupdjLEJwIjOOkEMy6JK-9lIEPEsao54c88VeygZzUTF5dhsclK3cKZtKmPt1bzmLXnziZ22g_rdV0xHcSSFjmNk6TEhYKqgDOxhxbi4WQsunJnf4Tym8UuEUZnhcjdLFytBc6RFGd6-ukgUHCBN45_rRZqAGboAH582zZpAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFig8vTF-aCOA5oJZmh0dHBzOi8vd3d3LnByZXN0aWdlY29uc3RydWN0aW9ucy5jb20vcmVzaWRlbnRpYWwtcHJvamVjdHMvaHlkZXJhYmFkL3ByZXN0aWdlLXZhaXNobmFvaS1yYWluYm93LXdhdGVyc7EJrR6jX3IPRDnICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDfMBaHR0cHM6Ly93d3cucHJlc3RpZ2Vjb25zdHJ1Y3Rpb25zLmNvbS9yZXNpZGVudGlhbC1wcm9qZWN0cy9oeWRlcmFiYWQvcHJlc3RpZ2UtdmFpc2huYW9pLXJhaW5ib3ctd2F0ZXJzP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kX2dlbiZ1dG1fY2FtcGFpZ249SFlEX3xfUFZSV198X0RnZW4mdHJhY2tlcl9jb2RlPWNUdWQ4YWYzbEpMNE43aWRWaUh6aFdMTSZjYW1waWQ9MjI0OTYwMjQ2MDUmZ2FkX3NvdXJjZT0yuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdtjmcLcz809boXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI-P30xfmgjgMVrEN4AB3dUgUZEAEYASAAEgLWw_D_BwE&num=1&cid=CAASFeRoXe2AKMUg90PvAVAa7Nr3-VaZtA&sig=AOD64_1mRqPrUNQsf7vUeuqIEivJaF640g&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Prestige Vaishnoai Rainbow Waters - New Flats in Hyderabad.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct39iWppmaPjoFayH4bMP3aWVyAGs1OrRf7Ssya2-FLCQHxABIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGBssyZA6kCUSfPg6UrST6oAwTIAwqqBJoCT9D7T3rHJoBsQ4Zcb6qOTioWBacW_UgNABOb83pdXWRTkVlHFH6e4sv1xhcfi_26G2o_6oyZJUANIHDhNlgEkzBBU7i4gopliiZSfU6pubMPYmw7EOfpuNMb22AuTg9lv3kfMHYt37_YK9I8aKbxkCUI-Cwcb6CYGPebHEp1aplmVcxK7ZOGPUS5Knil9cvbjYum--1TwNISyQx0JGYDobbA6pK8k2d9l0O9wvpb2YTQupdjLEJwIjOOkEMy6JK-9lIEPEsao54c88VeygZzUTF5dhsclK3cKZtKmPt1bzmLXnziZ22g_rdV0xHcSSFjmNk6TEhYKqgDOxhxbi4WQsunJnf4Tym8UuEUZnhcjdLFytBc6RFGd6-ukgUHCBN45_rRZqAGboAH582zZpAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFig8vTF-aCOA5oJZmh0dHBzOi8vd3d3LnByZXN0aWdlY29uc3RydWN0aW9ucy5jb20vcmVzaWRlbnRpYWwtcHJvamVjdHMvaHlkZXJhYmFkL3ByZXN0aWdlLXZhaXNobmFvaS1yYWluYm93LXdhdGVyc7EJrR6jX3IPRDnICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDfMBaHR0cHM6Ly93d3cucHJlc3RpZ2Vjb25zdHJ1Y3Rpb25zLmNvbS9yZXNpZGVudGlhbC1wcm9qZWN0cy9oeWRlcmFiYWQvcHJlc3RpZ2UtdmFpc2huYW9pLXJhaW5ib3ctd2F0ZXJzP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kX2dlbiZ1dG1fY2FtcGFpZ249SFlEX3xfUFZSV198X0RnZW4mdHJhY2tlcl9jb2RlPWNUdWQ4YWYzbEpMNE43aWRWaUh6aFdMTSZjYW1waWQ9MjI0OTYwMjQ2MDUmZ2FkX3NvdXJjZT0yuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRdtjmcLcz809boXBigAMAA4AdAYAfAYAQ&gclid=EAIaIQobChMI-P30xfmgjgMVrEN4AB3dUgUZEAEYASAAEgLWw_D_BwE&num=1&cid=CAASFeRoXe2AKMUg90PvAVAa7Nr3-VaZtA&sig=AOD64_1mRqPrUNQsf7vUeuqIEivJaF640g&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Prestige Group
+  - button "My Ad Center"
+  - heading "Playwright with Java latest] - UI + API Automation + End To End Framework" [level=3]:
+    - link "Playwright with Java latest] - UI + API Automation + End To End Framework":
+      - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - link "Playlist":
+    - /url: /@naveenautomationlabs
+  - link "#1 - Playwright - Test Automation Tool | Overview & Introduction · 24:44":
+    - /url: /watch?v=N6VdiuF9j1M&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8&pp=0gcJCRIBOCosWNin
+  - link "#2 - Cypress vs Playwright · 19:52":
+    - /url: /watch?v=7Fyfc7zD4V4&list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - link "View full playlist":
+    - /url: /playlist?list=PLFGoYjJG_fqrjcgRUcc2ubbZGtbRcC6W8
+  - heading "Shorts" [level=2]
+  - 'heading "Here for you - Playwright Beginner tutorials | #AskRaghav, 37 thousand views - play Short" [level=3]':
+    - 'link "Here for you - Playwright Beginner tutorials | #AskRaghav"':
+      - /url: /shorts/sR6yqAxTGdY
+  - button "More actions"
+  - 'heading "Selenium Vs Playwright : Which Tool Is Better, 87 thousand views - play Short" [level=3]':
+    - 'link "Selenium Vs Playwright : Which Tool Is Better"':
+      - /url: /shorts/ktzCWrO44wY
+  - button "More actions"
+  - heading "10X Faster Testing?! Playwright vs Selenium, 33 thousand views - play Short" [level=3]:
+    - link "10X Faster Testing?! Playwright vs Selenium":
+      - /url: /shorts/eBT4hQscYog
+  - button "More actions"
+  - heading "Use Playwright's \"addLocatorHandler\" to close unpredictable UI elements!, 1.2 thousand views - play Short" [level=3]:
+    - link "Use Playwright's \"addLocatorHandler\" to close unpredictable UI elements!":
+      - /url: /shorts/Ixw3PE6svvE
+  - button "More actions"
+  - 'heading "Playwright Tutorial | UI Mode in Playwright #playwright #softwarequalityassurance, 321 views - play Short" [level=3]':
+    - 'link "Playwright Tutorial | UI Mode in Playwright #playwright #softwarequalityassurance"':
+      - /url: /shorts/BJcCoBSaxdU
+  - button "More actions"
+  - button "Show more"
+  - link "Your DSA Preparation Starts Here":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Czg42WppmaPjoFayH4bMP3aWVyAGDnLL3fv-j57SaFLCQHxACIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCUSfPg6UrST6oAwTIAwqqBJsCT9D7T3rHJoBsQ4Zcb6qOTioWBacW_UgNABOb83pdXWRTkVlHFH6e4sv1xhcfi_26G2o_6oyZJUANIHDhNlgEkzBBU7i4gopliiZSfU6pubMPYmw7EOfpuNMb22AuTg9lv3kfMHYt37_YK9I8aKbxkCUI-Cwcb6CYGPebHEp1aplmVcxK7ZOGPUS5Knil9cvbjYum--1TwNISyQx0JGYDobbA6pK8k2d9l0O9wvpb2YTQupdjLEJwIjOOkEMy6JK-9lIEPEsao54c88VeygZzUTF5dhsclK3cKeFNmPt1bznVcm2zYG2gs8hMG8QZMeUDDD_qRtDIA4PaUFYbpwmzArDztGYVgwKeUu0A21k92g3A6NBS_9BMI8Yq5JIFCAgTeKqFyK4YoAZugAeU78CrGJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFig8vTF-aCOA5oJKmh0dHA6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZHNhX2NvdXJzZbEJH3mS84elqmPICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDbUBaHR0cDovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kc2FfY291cnNlP3V0bV9jYW1wYWlnbj1TREUtR0xQLURpcmVjdC0xN0FwcmlsMjUmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLVNERS1HTFAtaW50LURTQS1EaXJlY3QtMzBBcHJpbDI1JmdhZF9zb3VyY2U9MrgT____________AYgUA7AUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXUySw2IeAIeq6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMI-P30xfmgjgMVrEN4AB3dUgUZEAEYAiAAEgJnyPD_BwE&num=2&cid=CAASFeRoXe2AKMUg90PvAVAa7Nr3-VaZtA&sig=AOD64_0CjzRStHhDhOuKIsh4w0cI_WJ1_A&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Tackle advanced DSA with mentorship, projects & peer coding drills.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Czg42WppmaPjoFayH4bMP3aWVyAGDnLL3fv-j57SaFLCQHxACIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGUt_DLPakCUSfPg6UrST6oAwTIAwqqBJsCT9D7T3rHJoBsQ4Zcb6qOTioWBacW_UgNABOb83pdXWRTkVlHFH6e4sv1xhcfi_26G2o_6oyZJUANIHDhNlgEkzBBU7i4gopliiZSfU6pubMPYmw7EOfpuNMb22AuTg9lv3kfMHYt37_YK9I8aKbxkCUI-Cwcb6CYGPebHEp1aplmVcxK7ZOGPUS5Knil9cvbjYum--1TwNISyQx0JGYDobbA6pK8k2d9l0O9wvpb2YTQupdjLEJwIjOOkEMy6JK-9lIEPEsao54c88VeygZzUTF5dhsclK3cKeFNmPt1bznVcm2zYG2gs8hMG8QZMeUDDD_qRtDIA4PaUFYbpwmzArDztGYVgwKeUu0A21k92g3A6NBS_9BMI8Yq5JIFCAgTeKqFyK4YoAZugAeU78CrGJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFig8vTF-aCOA5oJKmh0dHA6Ly93d3cuYm9zc2NvZGVyYWNhZGVteS5jb20vZHNhX2NvdXJzZbEJH3mS84elqmPICQDICYoCmAsBugs1CAMQBRgEIAgoATAFQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgXQCxKaDQESqg0CSU7IDQHSDbUBaHR0cDovL3d3dy5ib3NzY29kZXJhY2FkZW15LmNvbS9kc2FfY291cnNlP3V0bV9jYW1wYWlnbj1TREUtR0xQLURpcmVjdC0xN0FwcmlsMjUmdXRtX21lZGl1bT1EaXNwbGF5JnV0bV9zb3VyY2U9R29vZ2xlLUFkcyZSZWY9R29vZ2xlQWRzLVNERS1HTFAtaW50LURTQS1EaXJlY3QtMzBBcHJpbDI1JmdhZF9zb3VyY2U9MrgT____________AYgUA7AUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXUySw2IeAIeq6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMI-P30xfmgjgMVrEN4AB3dUgUZEAEYAiAAEgJnyPD_BwE&num=2&cid=CAASFeRoXe2AKMUg90PvAVAa7Nr3-VaZtA&sig=AOD64_0CjzRStHhDhOuKIsh4w0cI_WJ1_A&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Bosscoder Academy
+  - button "My Ad Center"
+  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3]:
+    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes":
+      - /url: /watch?v=pq20Gd4LXeI&t=122s&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Playwright Automation Tutorial for Beginners from Scratch
+  - button "Action menu"
+  - text: 93K views •10 months ago
+  - link "Go to channel":
+    - /url: /@Mukeshotwani
+  - link "Mukesh otwani":
+    - /url: /@Mukeshotwani
+  - img "Verified":
+    - paragraph
+  - text: Welcome to this Playwright Automation Tutorial for Beginners!. If you're planning to learn Playwright from scratch then your search ...
+  - tooltip "tooltip"
+  - text: Matching chapter
+  - button "2:02 What is Playwright"
+  - button "More"
+  - heading "Playwright Beginner Tutorials" [level=3]:
+    - link "Playwright Beginner Tutorials":
+      - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - link "Automation Step by Step":
+    - /url: /@RaghavPal
+  - link "Course":
+    - /url: /@RaghavPal
+  - link "Playwright Beginner Tutorial 1 | What is Playwright · 13:05":
+    - /url: /watch?v=4_m3HsaNwOE&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - link "Playwright Beginner Tutorial 2 | How to install · 25:46":
+    - /url: /watch?v=IB2P1FBXjcQ&list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8&pp=0gcJCRIBOCosWNin
+  - link "View full course":
+    - /url: /playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8
+  - heading "People also watched" [level=2]
+  - heading "शफ़ा के परिवार पर लगी पड़ोसी की बुरी नज़र 25 minutes" [level=3]:
+    - link "शफ़ा के परिवार पर लगी पड़ोसी की बुरी नज़र 25 minutes":
+      - /url: /watch?v=t6JyIjZoMkU&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: शफ़ा के परिवार पर लगी पड़ोसी की बुरी नज़र
+  - button "Action menu"
+  - text: 9.2M views •1 year ago
+  - link "Go to channel":
+    - /url: /@shfashowindia
+  - link "shfa show India":
+    - /url: /@shfashowindia
+  - heading "This Browser Agent Automates ANYTHING (N8N + Skyvern) 42 minutes" [level=3]:
+    - link "This Browser Agent Automates ANYTHING (N8N + Skyvern) 42 minutes":
+      - /url: /watch?v=FhDYo2VKu5E&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: This Browser Agent Automates ANYTHING (N8N + Skyvern)
+  - button "Action menu"
+  - text: 62K views •4 months ago
+  - link "Go to channel":
+    - /url: /@BenAI92
+  - link "Ben AI":
+    - /url: /@BenAI92
+  - text: "Chapters: 00:00 - Intro 01:20 - Live Demo 15:22 - N8N Agent Overview 20:24 - Skyvern Overview 24:41 - Whatsapp Trigger 27:35 ..."
+  - tooltip "tooltip"
+  - text: 9 chapters
+  - button "Intro | Live Demo | N8N Agent Overview | Skyvern Overview | Whatsapp Trigger | Agent Setup | Job Application Tool | Contact Form Tool | Purchasing Tool"
+  - button "More"
+  - heading "AI Driven Open Source Test Automation Framework with AI Agents -(Browser-use-Codeless-Playwright) 1 hour, 20 minutes" [level=3]:
+    - link "AI Driven Open Source Test Automation Framework with AI Agents -(Browser-use-Codeless-Playwright) 1 hour, 20 minutes":
+      - /url: /watch?v=15LCeh46sMs&t=3440s&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: AI Driven Open Source Test Automation Framework with AI Agents -(Browser-use-Codeless-Playwright)
+  - button "Action menu"
+  - text: 77K views •4 months ago
+  - link "Go to channel":
+    - /url: /@RahulShettyAcademy
+  - link "Rahul Shetty Academy":
+    - /url: /@RahulShettyAcademy
+  - text: My Portfolio - https://www.udemy.com/user/rahul445/ Design Test Automation Framework that allows tests to be written in plain ...
+  - tooltip "tooltip"
+  - text: Matching chapter
+  - button "57:20 Integrate Playwright code in Custom controller action ..."
+  - button "More"
+  - heading "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes" [level=3]:
+    - link "Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features 1 hour, 3 minutes":
+      - /url: /watch?v=5EDP-ff708Y&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Playwright Automation with TypeScript | LIVE Demo & Introduction to Playwright & It's Features
+  - button "Action menu"
+  - text: 16K views •3 months ago
+  - link "Go to channel":
+    - /url: /@sdetpavan
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - img "Verified":
+    - paragraph
+  - text: "Playwright #AutomationTesting #TypeScript #SoftwareTesting #TestAutomation #QA #PlaywrightJS #WebTesting #SDET ..."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - img "Closed captions":
+    - paragraph: CC
+  - text: +6 more
+  - 'heading "Top 5 Trending UI Automation Tools in 2024 #automationtesting #softwaretesting by Software Testing Tips and Tricks 638 views 10 months ago 50 seconds - play Short" [level=3]':
+    - 'link "Top 5 Trending UI Automation Tools in 2024 #automationtesting #softwaretesting by Software Testing Tips and Tricks 638 views 10 months ago 50 seconds - play Short"':
+      - /url: /shorts/N-6rJaulEaY
+      - text: "Top 5 Trending UI Automation Tools in 2024 #automationtesting #softwaretesting"
+  - button "Action menu"
+  - text: 638 views •10 months ago
+  - link "Go to channel":
+    - /url: /@SoftwareTestingTipsandTricks
+  - link "Software Testing Tips and Tricks":
+    - /url: /@SoftwareTestingTipsandTricks
+  - text: Here is the short about top 5 UI automation tools that are in trend in 2024. There are plenty of UI automation tools are available in ...
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - 'heading "Playwright Tutorial | UI Mode in Playwright #playwright #softwarequalityassurance, 321 views - play Short" [level=3]':
+    - 'link "Playwright Tutorial | UI Mode in Playwright #playwright #softwarequalityassurance"':
+      - /url: /shorts/BJcCoBSaxdU
+  - button "More actions"
+  - 'heading "Hiring UI Automation + Playwright #uiautomation #playwright, 613 views - play Short" [level=3]':
+    - 'link "Hiring UI Automation + Playwright #uiautomation #playwright"':
+      - /url: /shorts/uQ3eF5OqnrA
+  - button "More actions"
+  - heading "How to Launch Chrome using java + Playwright, 18 thousand views - play Short" [level=3]:
+    - link "How to Launch Chrome using java + Playwright":
+      - /url: /shorts/eZuZys-66N4
+  - button "More actions"
+  - 'heading "What is Playwright? #playwright, 11 thousand views - play Short" [level=3]':
+    - 'link "What is Playwright? #playwright"':
+      - /url: /shorts/E_bWHVGymQE
+  - button "More actions"
+  - heading "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️, 28 thousand views - play Short" [level=3]:
+    - link "Python 🐍 + Playwright 🎭 = Powerful Automations ⚡️":
+      - /url: /shorts/VIaxjCWJ9rE
+  - button "More actions"
+  - button "Show more"
+  - heading "Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison 8 minutes, 17 seconds" [level=3]:
+    - link "Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison 8 minutes, 17 seconds":
+      - /url: /watch?v=CwJ20qv3TXI&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison
+  - button "Action menu"
+  - text: 3.1K views •10 months ago
+  - link "Go to channel":
+    - /url: /@Automation_E2E
+  - link "Automation E2E":
+    - /url: /@Automation_E2E
+  - text: In this in-depth comparison of Selenium, Playwright, Cypress, and Puppeteer, we explore the best web automation tools for ...
+  - tooltip "tooltip"
+  - text: 10 chapters
+  - button "Introduction and List of Best Web automation tools | Cross-Browser Support Comparison | Multi-Language Support Comparison | Parallel Execution Comparison | Automatic wait handling Comparison | Community & Ecosystem Comparison | Set Up Complexity Comparison | Test Flakiness Comparison | Test speed, Debugging and Ease of learning | Conclusion"
+  - button "More"
+  - heading "The Perfect Tool for Quick Browser Tests - Playwright MCP Server 9 minutes, 40 seconds" [level=3]:
+    - link "The Perfect Tool for Quick Browser Tests - Playwright MCP Server 9 minutes, 40 seconds":
+      - /url: /watch?v=5NhPFVNuyOg&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: The Perfect Tool for Quick Browser Tests - Playwright MCP Server
+  - button "Action menu"
+  - text: 5.4K views •2 weeks ago
+  - link "Go to channel":
+    - /url: /@ExecuteAutomation
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - text: In this video, I'll show you why Playwright MCP Server is the perfect middle ground between manual testing and complex ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - 'heading "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison 17 minutes" [level=3]':
+    - 'link "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison 17 minutes"':
+      - /url: /watch?v=WLWuzXiyxco&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison"
+  - button "Action menu"
+  - text: 90 views •1 day ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: "Playwright TypeScript #46 How to Perform Visual Testing in Playwright? | Visual Comparison | Playwright Automation Tutorial: ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - img "4K":
+    - paragraph: 4K
+  - heading "Playwright with Java [2024 latest] - UI + API Automation + End To End Framework| Playwright Tutorial Java" [level=3]:
+    - link "Playwright with Java [2024 latest] - UI + API Automation + End To End Framework| Playwright Tutorial Java":
+      - /url: /watch?v=ycsl8Nd6H4I&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "The Testing Academy":
+    - /url: /@TheTestingAcademy
+  - link "Playlist":
+    - /url: /@TheTestingAcademy
+  - link "Playwright Tutorial Java - Introduction with Notes - Part 1 · 25:00":
+    - /url: /watch?v=ycsl8Nd6H4I&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "Playwright Vs Cypress Vs Selenium | Playwright Tutorial Java series - Part 2 · 10:50":
+    - /url: /watch?v=3eDLhUF2bAk&list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - link "View full playlist":
+    - /url: /playlist?list=PL8VbCbavWfeG6yNh-dtRccLKXWewsvyK8
+  - heading "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️" [level=3]:
+    - link "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - heading "Learn Playwright Automation In 7 Hours | Complete Playwright Tutorial For Beginners 6 hours, 21 minutes" [level=3]:
+    - link "Learn Playwright Automation In 7 Hours | Complete Playwright Tutorial For Beginners 6 hours, 21 minutes":
+      - /url: /watch?v=hN1Zn6kLntk&t=1s&pp=ygUNUGxheXdyaWdodCBVSdIHCQnBCQGHKiGM7w%3D%3D
+      - text: Learn Playwright Automation In 7 Hours | Complete Playwright Tutorial For Beginners
+  - button "Action menu"
+  - text: 16K views •9 months ago
+  - link "Go to channel":
+    - /url: /@alexusadays
+  - link "alexusadays":
+    - /url: /@alexusadays
+  - text: "#qualityassurance #automation #playwright."
+  - tooltip "tooltip"
+  - text: 10 moments
+  - button "0:01 How to Install Playwright"
+  - button "More"
+  - heading "How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI 23 minutes" [level=3]:
+    - link "How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI 23 minutes":
+      - /url: /watch?v=AK9mRsXdr4w&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI
+  - button "Action menu"
+  - text: 77K views •4 months ago
+  - link "Go to channel":
+    - /url: /@naveenautomationlabs
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - img "Verified":
+    - paragraph
+  - text: How to create your own Browser AI Agent using any LLM Model + Playwright + Browser-Use + Web-UI Schedule a meeting in ...
+  - tooltip "tooltip"
+  - heading "Complete Playwright Testing Tutorial | An End to End Playwright with TypeScript Course 5 hours, 41 minutes" [level=3]:
+    - link "Complete Playwright Testing Tutorial | An End to End Playwright with TypeScript Course 5 hours, 41 minutes":
+      - /url: /watch?v=wawbt1cATsk&t=24s&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Complete Playwright Testing Tutorial | An End to End Playwright with TypeScript Course
+  - button "Action menu"
+  - text: 253K views •2 years ago
+  - link "Go to channel":
+    - /url: /@LambdaTest
+  - link "LambdaTest":
+    - /url: /@LambdaTest
+  - text: This Playwright testing tutorial covers everything you need to get you up and running with the Microsoft Playwright framework with ...
+  - tooltip "tooltip"
+  - text: Matching chapter
+  - button "0:24 What is Playwright?"
+  - button "More"
+  - heading "MORE PLAYWRIGHT UI MODE UPDATES!! (Amazing VSCode Extension improvement!) 7 minutes, 23 seconds" [level=3]:
+    - link "MORE PLAYWRIGHT UI MODE UPDATES!! (Amazing VSCode Extension improvement!) 7 minutes, 23 seconds":
+      - /url: /watch?v=tdYcgYk_y3E&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: MORE PLAYWRIGHT UI MODE UPDATES!! (Amazing VSCode Extension improvement!)
+  - button "Action menu"
+  - text: 1.9K views •2 years ago
+  - link "Go to channel":
+    - /url: /@CommitQuality
+  - link "CommitQuality":
+    - /url: /@CommitQuality
+  - text: Are you ready for the latest updates to Playwright UI Mode? In this exciting YouTube video, we unveil a host of new features that ...
+  - tooltip "tooltip"
+  - heading "Let AI Explore Your Site & Write Tests with Playwright MCP! 4 minutes, 50 seconds" [level=3]:
+    - link "Let AI Explore Your Site & Write Tests with Playwright MCP! 4 minutes, 50 seconds":
+      - /url: /watch?v=IixdI2bTR1g&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Let AI Explore Your Site & Write Tests with Playwright MCP!
+  - button "Action menu"
+  - text: 38K views •2 weeks ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: What if your tests could write themselves by actually using your app like a real user? In this video, we demo the Playwright MCP ...
+  - tooltip "tooltip"
+  - heading "How to Generate Playwright Tests using MCP + Copilot 3 minutes, 8 seconds" [level=3]:
+    - link "How to Generate Playwright Tests using MCP + Copilot 3 minutes, 8 seconds":
+      - /url: /watch?v=AaCj939XIQ4&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: How to Generate Playwright Tests using MCP + Copilot
+  - button "Action menu"
+  - text: 61K views •1 month ago
+  - link "Go to channel":
+    - /url: /@Playwrightdev
+  - link "Playwright":
+    - /url: /@Playwrightdev
+  - text: Learn how to generate end-to-end tests with Playwright MCP—even when you don't have access to the source code! In this ...
+  - tooltip "tooltip"
+  - 'heading "Selenium vs. WebdriverIO vs. Cypress vs. Playwright: UI Automation Showdown (My Top Pick) 17 minutes" [level=3]':
+    - 'link "Selenium vs. WebdriverIO vs. Cypress vs. Playwright: UI Automation Showdown (My Top Pick) 17 minutes"':
+      - /url: /watch?v=f5DjcZ4zId8&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: "Selenium vs. WebdriverIO vs. Cypress vs. Playwright: UI Automation Showdown (My Top Pick)"
+  - button "Action menu"
+  - text: 154 views •3 months ago
+  - link "Go to channel":
+    - /url: /@SridharJammalamadaka
+  - link "Sridhar Jammalamadaka":
+    - /url: /@SridharJammalamadaka
+  - text: Dive into an in-depth comparison of four powerhouse automation tools—Selenium WebDriver, WebdriverIO, Cypress, and ...
+  - tooltip "tooltip"
+  - 'heading "#5 Playwright Vs Selenium Automation | Playwright Tutorial #playwright #testing #e2e by Testers Talk 19,634 views 1 year ago 43 seconds - play Short" [level=3]':
+    - 'link "#5 Playwright Vs Selenium Automation | Playwright Tutorial #playwright #testing #e2e by Testers Talk 19,634 views 1 year ago 43 seconds - play Short"':
+      - /url: /shorts/A_ZIG_ClXew
+      - text: "#5 Playwright Vs Selenium Automation | Playwright Tutorial #playwright #testing #e2e"
+  - button "Action menu"
+  - text: 19K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automation library for browser ...
+  - tooltip "tooltip"
+  - heading "Playwright with UI Mode is awesome 7 minutes, 27 seconds" [level=3]:
+    - link "Playwright with UI Mode is awesome 7 minutes, 27 seconds":
+      - /url: /watch?v=ErkRgqmHCmc&pp=ygUNUGxheXdyaWdodCBVSQ%3D%3D
+      - text: Playwright with UI Mode is awesome
+  - button "Action menu"
+  - text: 620 views •2 years ago
+  - link "Go to channel":
+    - /url: /@Puppo_92
+  - link "Luca Del Puppo":
+    - /url: /@Puppo_92
+  - text: "This video shows how the #Ui Mode works in #playwright and its #benefits in your daily work. You'll learn: - how to open it - how to ..."
+  - tooltip "tooltip"
+```

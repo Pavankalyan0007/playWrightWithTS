@@ -1,0 +1,1 @@
+[{"uid":"929c013b85ae5d1a","name":"Test2 in playwright","time":{"start":1751440397744,"stop":1751440409372,"duration":11628},"status":"failed","severity":"normal"},{"uid":"3a2fce42760bf9e8","name":"Test1 in playwright","time":{"start":1751440397738,"stop":1751440409458,"duration":11720},"status":"passed","severity":"normal"}]

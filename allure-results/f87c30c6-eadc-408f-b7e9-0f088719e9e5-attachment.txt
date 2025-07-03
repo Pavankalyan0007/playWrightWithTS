@@ -1,0 +1,6 @@
+text repo :PlaywrightTutorialFullCourse
+text repo :PostmanCollectionsByTestersTalk
+text repo :PlaywrightAPITestingTutorial
+text repo :RestAssuredAPITestingFramework
+text repo :PlaywrightTypeScriptTutorialFullCourse
+text repo :CypressTutorialFullCourse

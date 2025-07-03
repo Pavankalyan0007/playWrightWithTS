@@ -1,0 +1,448 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Selenium API
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DSelenium%252BAPI&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - link "Python Using AI":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDT6tfJlmaM_NFs-ojMwPt8-6gQjNrsSYgAHB6orizRNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmA_9QpqQJRJ8-DpStJPqgDBMgDCqoEmQJP0Ap3QRP_yq-boA7aEEb2qfL5iNFJHJuh0OOsYx__KgDC-lKexx1xCd-9bf3j00IK5_fcyblEZpHpeRjJRCoOBROtk5fi5vKAmETb0YJwWfn1yU1hNtGbv36DKyvQURkY0PpLLN1bKlJDbt3KatERRpQ_nd0wSRG9CvwPJwl2zWPGtInj_qy1eoHNDX3sbHyBkn9N3SzMIpeb9S35pVmxjLQ9BXbCWfQUuM8iNQgki_LOFPP5p5KV7wCnKVylYomO1MaD4ZBDO5ekDmtxYIEpccR_9OBhT1RnlfaggqFr-mz_FNyDOBkq6nOnNVKRqa5g2-uoF2vV2AFv8WEYnfledu5zjnRT06ECR9kkaXPwAX9CHuALPPwvN5IFCAgTeP3uyOEEoAZugAfZuM-0BJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFjgzIbc-KCOA5oJLGh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5dGhvbi11c2luZy1haS1nYTIvsQk5ISpy0Gu2Z8gJAJgLAboLNQgDEAUYFiAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsSmg0BEqoNAklOyA0B0g2TAWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5dGhvbi11c2luZy1haS1nYTIvPyZ1dG1fbWVkaXVtPXBtYXhfRmViMTUmdXRtX2NhbXBhaWduPTIyMjQyMDQ2Nzc4JnV0bV90ZXJtPSZ1dG1fY29udGVudD0mdXRtX2lkPTIyMjQyMDQ2Nzc4JmdhZF9zb3VyY2U9MrgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYASAAEgIG4vD_BwE&num=1&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_2kqBpqvYSe3_WHT1_T732gGswM9w&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Learn from experienced mentors and start your journey to becoming an python expert.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDT6tfJlmaM_NFs-ojMwPt8-6gQjNrsSYgAHB6orizRNkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdmA_9QpqQJRJ8-DpStJPqgDBMgDCqoEmQJP0Ap3QRP_yq-boA7aEEb2qfL5iNFJHJuh0OOsYx__KgDC-lKexx1xCd-9bf3j00IK5_fcyblEZpHpeRjJRCoOBROtk5fi5vKAmETb0YJwWfn1yU1hNtGbv36DKyvQURkY0PpLLN1bKlJDbt3KatERRpQ_nd0wSRG9CvwPJwl2zWPGtInj_qy1eoHNDX3sbHyBkn9N3SzMIpeb9S35pVmxjLQ9BXbCWfQUuM8iNQgki_LOFPP5p5KV7wCnKVylYomO1MaD4ZBDO5ekDmtxYIEpccR_9OBhT1RnlfaggqFr-mz_FNyDOBkq6nOnNVKRqa5g2-uoF2vV2AFv8WEYnfledu5zjnRT06ECR9kkaXPwAX9CHuALPPwvN5IFCAgTeP3uyOEEoAZugAfZuM-0BJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgHyrqxAqgH_MuxAqgH_bKxAqgH97ixAqgH-LixAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgHgcYbqAf8r7ECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCkIgEEQARheMgKCAjoMgEKAwICAgICAgAIqSNmg0jVQFFjgzIbc-KCOA5oJLGh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5dGhvbi11c2luZy1haS1nYTIvsQk5ISpy0Gu2Z8gJAJgLAboLNQgDEAUYFiAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsSmg0BEqoNAklOyA0B0g2TAWh0dHBzOi8vYWlmb3J0ZWNoaWVzLmluL3B5dGhvbi11c2luZy1haS1nYTIvPyZ1dG1fbWVkaXVtPXBtYXhfRmViMTUmdXRtX2NhbXBhaWduPTIyMjQyMDQ2Nzc4JnV0bV90ZXJtPSZ1dG1fY29udGVudD0mdXRtX2lkPTIyMjQyMDQ2Nzc4JmdhZF9zb3VyY2U9MrgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXuCO4b10-mMO6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYASAAEgIG4vD_BwE&num=1&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_2kqBpqvYSe3_WHT1_T732gGswM9w&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · AI For Techies
+  - button "My Ad Center"
+  - heading "API Testing using RestAssured" [level=3]:
+    - link "API Testing using RestAssured":
+      - /url: /watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - link "Playlist":
+    - /url: /@sdetpavan
+  - 'link "Session 1: API Testing | RestAssured | Introduction | Environment Setup | HTTP Methods · 1:32:27"':
+    - /url: /watch?v=OM4mr3PKgcQ&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I
+  - 'link "Session 2: API Testing | RestAssured | Creating Post Request Payloads in Multiple Ways · 1:00:27"':
+    - /url: /watch?v=xIidl6Iua0o&list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I
+  - link "View full playlist":
+    - /url: /playlist?list=PLUDwpEzHYYLvLZX_QEGTNolPvNADXid0I
+  - heading "Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison 8 minutes, 17 seconds" [level=3]:
+    - link "Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison 8 minutes, 17 seconds":
+      - /url: /watch?v=CwJ20qv3TXI&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Selenium vs Playwright vs Cypress vs Puppeteer | Ultimate Web Automation Tools Comparison
+  - button "Action menu"
+  - text: 3.1K views •10 months ago
+  - link "Go to channel":
+    - /url: /@Automation_E2E
+  - link "Automation E2E":
+    - /url: /@Automation_E2E
+  - text: In this in-depth comparison of Selenium, Playwright, Cypress, and Puppeteer, we explore the best web automation tools for ...
+  - tooltip "tooltip"
+  - text: 10 chapters
+  - button "Introduction and List of Best Web automation tools | Cross-Browser Support Comparison | Multi-Language Support Comparison | Parallel Execution Comparison | Automatic wait handling Comparison | Community & Ecosystem Comparison | Set Up Complexity Comparison | Test Flakiness Comparison | Test speed, Debugging and Ease of learning | Conclusion"
+  - button "More"
+  - link "AI-Powered Course - Selenium Automation Framework - Logging and Reporting":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChsSEwjwi5fc-KCOAxW3qGYCHRyFD-UYACICCAEQABoCc20&co=1&gclid=EAIaIQobChMI8IuX3PigjgMVt6hmAh0chQ_lEAEYASAAEgKwO_D_BwE&num=1&sig=AOD64_2fgV7Eb_P2N0JCw1ji_p5b9rk-NA&adurl=https://www.educative.io/courses/test-automation-framework-selenium-java%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=0
+  - link "Learn about Selenium basics, TestNG, build management, logging, and reporting to automate web applications effectively. Learn...":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChsSEwjwi5fc-KCOAxW3qGYCHRyFD-UYACICCAEQABoCc20&co=1&gclid=EAIaIQobChMI8IuX3PigjgMVt6hmAh0chQ_lEAEYASAAEgKwO_D_BwE&num=1&sig=AOD64_2fgV7Eb_P2N0JCw1ji_p5b9rk-NA&adurl=https://www.educative.io/courses/test-automation-framework-selenium-java%3Futm_campaign%3Dbrand_educative%26utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_content%3Dperformance_max_india%26utm_term%3D%26aff%3DK3Zq%26utm_term%3D%26utm_campaign%3D%255BNew%255D%2BPerformance%2BMax%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D5451446008%26hsa_cam%3D18931439518%26hsa_grp%3D%26hsa_ad%3D%26hsa_src%3Dx%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D2%26gad_campaignid%3D18924941403&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=7
+  - text: Sponsored · https://www.educative.io/
+  - button "My Ad Center"
+  - heading "API Testing Full Course" [level=3]:
+    - link "API Testing Full Course":
+      - /url: /watch?v=vCJVFnepECc&list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6HqscI4
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - link "Playlist":
+    - /url: /@sdetpavan
+  - 'link "Session1: Introduction to API Testing · 1:28:06"':
+    - /url: /watch?v=vCJVFnepECc&list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6HqscI4&pp=0gcJCRIBOCosWNin
+  - 'link "Session 2: API Testing | Postman | Environment Setup & Types of HTTP Requests · 1:12:58"':
+    - /url: /watch?v=zisAGm5I-Yw&list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6HqscI4
+  - link "View full playlist":
+    - /url: /playlist?list=PLUDwpEzHYYLuW9XEvFEJk2kqsk6HqscI4
+  - heading "What is Selenium | Selenium Explained in 2-minutes | Introduction to Selenium | Intellipaat 1 minute, 48 seconds" [level=3]:
+    - link "What is Selenium | Selenium Explained in 2-minutes | Introduction to Selenium | Intellipaat 1 minute, 48 seconds":
+      - /url: /watch?v=cc26zFE8X1k&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: What is Selenium | Selenium Explained in 2-minutes | Introduction to Selenium | Intellipaat
+  - button "Action menu"
+  - text: 144K views •2 years ago
+  - link "Go to channel":
+    - /url: /@Intellipaat
+  - link "Intellipaat":
+    - /url: /@Intellipaat
+  - img "Verified":
+    - paragraph
+  - text: What is Selenium? Selenium is a popular open-source framework for automating web browsers. It enables developers to write ...
+  - tooltip "tooltip"
+  - heading "Free API development platform" [level=3]
+  - status:
+    - paragraph
+  - text: Free API Collection Tool - Apidog, the ultimate API tool. Try it Free for 14 days, and cancel anytime you like!
+  - img "Sponsored":
+    - paragraph: Sponsored
+    - text: ·
+  - text: https://www.apidog.com/
+  - button
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - 'heading "Selenium Vs Playwright : Which Tool Is Better, 87 thousand views - play Short" [level=3]':
+    - 'link "Selenium Vs Playwright : Which Tool Is Better"':
+      - /url: /shorts/ktzCWrO44wY
+  - button "More actions"
+  - heading "API testing with TechieQA, 139 thousand views - play Short" [level=3]:
+    - link "API testing with TechieQA":
+      - /url: /shorts/8QbncQ3Hr-0
+  - button "More actions"
+  - heading "How you can learn API automation in just an hour? https://youtu.be/l07pebCuiKI, 95 thousand views - play Short" [level=3]:
+    - link "How you can learn API automation in just an hour? https://youtu.be/l07pebCuiKI":
+      - /url: /shorts/nqrOkordTNc
+  - button "More actions"
+  - 'heading "SELENIUM framework folder structure | Selenium Framework from scratch #education #coding, 45 thousand views - play Short" [level=3]':
+    - 'link "SELENIUM framework folder structure | Selenium Framework from scratch #education #coding"':
+      - /url: /shorts/o2qlMabqFmg
+  - button "More actions"
+  - 'heading "LinkedIn Automation with Python Selenium #trending #python, 30 thousand views - play Short" [level=3]':
+    - 'link "LinkedIn Automation with Python Selenium #trending #python"':
+      - /url: /shorts/GUIHfhSeMVc
+  - button "More actions"
+  - heading "Selenium with java Vs Selenium with Python | which language to choose Java or python ??, 19 thousand views - play Short" [level=3]:
+    - link "Selenium with java Vs Selenium with Python | which language to choose Java or python ??":
+      - /url: /shorts/VlGAPuVlzMI
+  - button "More actions"
+  - button "Next"
+  - heading "API Testing VS Selenium - What Should You Do First? 3 minutes, 49 seconds" [level=3]:
+    - link "API Testing VS Selenium - What Should You Do First? 3 minutes, 49 seconds":
+      - /url: /watch?v=z9_hVaxm5Jk&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: API Testing VS Selenium - What Should You Do First?
+  - button "Action menu"
+  - text: 8.4K views •8 months ago
+  - link "Go to channel":
+    - /url: /@TheTestingAcademy
+  - link "The Testing Academy":
+    - /url: /@TheTestingAcademy
+  - img "Verified":
+    - paragraph
+  - text: "Roadmap To Become an Automation Tester: In this video, we are going to learn about the ROADMAP to become an Automation ..."
+  - tooltip "tooltip"
+  - heading "Python Selenium Tutorial - Automate Websites and Create Bots 36 minutes" [level=3]:
+    - link "Python Selenium Tutorial - Automate Websites and Create Bots 36 minutes":
+      - /url: /watch?v=NB8OceGZGjA&t=101s&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Python Selenium Tutorial - Automate Websites and Create Bots
+  - button "Action menu"
+  - text: 401K views •1 year ago
+  - link "Go to channel":
+    - /url: /@TechWithTim
+  - link "Tech With Tim":
+    - /url: /@TechWithTim
+  - img "Verified":
+    - paragraph
+  - text: Today i'm going to show you everything you need to know about Selenium so you can get up-and-running as fast as possible.
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - img "Closed captions":
+    - paragraph: CC
+  - text: Matching chapter
+  - button "1:41 Installing Selenium"
+  - button "More"
+  - heading "People also watched" [level=2]
+  - heading "Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning 32 minutes" [level=3]:
+    - link "Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning 32 minutes":
+      - /url: /watch?v=K4bJ9Ci8q2c&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning
+  - button "Action menu"
+  - text: 22K views •6 months ago
+  - link "Go to channel":
+    - /url: /@rdautomationlearning609
+  - link "RD Automation Learning":
+    - /url: /@rdautomationlearning609
+  - text: Testing interview questions and answers Testing technical interview questions and answers Testing Telephonic Interview Testing ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - heading "Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning 21 minutes" [level=3]:
+    - link "Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning 21 minutes":
+      - /url: /watch?v=GcpAQJmib_Q&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Automation Testing Interview Questions and Answers| Testing Questions | RD Automation Learning
+  - button "Action menu"
+  - text: 24K views •5 months ago
+  - link "Go to channel":
+    - /url: /@rdautomationlearning609
+  - link "RD Automation Learning":
+    - /url: /@rdautomationlearning609
+  - text: Testing interview questions and answers Testing technical interview questions and answers Testing Telephonic Interview Testing ...
+  - tooltip "tooltip"
+  - 'heading "Complete API Automation Framework-Rest Assured #sdet #automationtesting 5 hours, 44 minutes" [level=3]':
+    - 'link "Complete API Automation Framework-Rest Assured #sdet #automationtesting 5 hours, 44 minutes"':
+      - /url: /watch?v=FjnF-P7FY28&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: "Complete API Automation Framework-Rest Assured #sdet #automationtesting"
+  - button "Action menu"
+  - text: 37K views •6 months ago
+  - link "Go to channel":
+    - /url: /@tech_with_jatin
+  - link "Tech with Jatin":
+    - /url: /@tech_with_jatin
+  - text: Complete E2E API Automation Framework Tutorial (Combined Series) Learn how to build a professional-grade API testing ...
+  - tooltip "tooltip"
+  - heading "Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka 11 hours, 37 minutes" [level=3]:
+    - link "Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka 11 hours, 37 minutes":
+      - /url: /watch?v=FRn5J31eAMw&t=150s&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Selenium Full Course - Learn Selenium in 12 Hours | Selenium Tutorial For Beginners | Edureka
+  - button "Action menu"
+  - text: 1.9M views •5 years ago
+  - link "Go to channel":
+    - /url: /@edurekaIN
+  - link "edureka!":
+    - /url: /@edurekaIN
+  - img "Verified":
+    - paragraph
+  - text: "#edureka #seleniumEdureka #seleniumFullCourse #seleniumWebdriver #seleniumAutomationTesting #SeleniumTutorial ..."
+  - tooltip "tooltip"
+  - text: Matching chapter
+  - button "2:30 What is Selenium?"
+  - button "More"
+  - text: +6 more
+  - heading "SDET Automation Mock Interview - 8+ YOE (Selenium, Java, API, Testing) 1 hour, 37 minutes" [level=3]:
+    - link "SDET Automation Mock Interview - 8+ YOE (Selenium, Java, API, Testing) 1 hour, 37 minutes":
+      - /url: /watch?v=PIxa53N_uIM&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: SDET Automation Mock Interview - 8+ YOE (Selenium, Java, API, Testing)
+  - button "Action menu"
+  - text: 307K views •3 years ago
+  - link "Go to channel":
+    - /url: /@naveenautomationlabs
+  - link "Naveen AutomationLabs":
+    - /url: /@naveenautomationlabs
+  - img "Verified":
+    - paragraph
+  - text: "Schedule a meeting in case of any queries/guidance/counselling: https://calendly.com/naveenautomationlabs ~~~Subscribe to ..."
+  - tooltip "tooltip"
+  - text: 21 moments
+  - button "Different Major Challenges That You Have Faced with Respect to E-Commerce Applications | Validating the Schema | Performance Testing | What Is Apa Gateway | Features of Api Gateways | The Basic Architecture of any Web Driver in Selenium 4 like How Exactly Selenium Is Working Internally | Can We Automate Desktop Application with Selenium | Which Api You Will Be Using To Handle Alerts | Alerts | Alert Methods | Soft Assertions | What Is the Difference between Soft Assertion and Hard Assertion | How Exactly Hash Map Works Internally | Why Why Strings Are Immutable | Use Cases | Unit Test Case Coverage | Are You Comfortable with the Basics of Get Commands | Commands To Push the Code to the Repository | What Is Your Oldest Responsibility in Your Current Project in Terms of Automation | Functional Test Cases | Improve Your Github Knowledge"
+  - button "More"
+  - link "Book Your Home Just ₹ 6 Lacs*":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Crcx7fJlmaM_NFs-ojMwPt8-6gQjTnoWLgAHpt-HqpBRkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb2DkPg9qQJRJ8-DpStJPqgDBMgDCqoEmgJP0Nr7hyrmYZYYC18hZ0XqvtP_geJMF5m33ouMd0L8Nhfj_FutwhZ-CsunbefH2k4O7r341eRHeobIfxH4dQRmByzwlI_g0vu6lG3x5uhnZKDwyU1IIca1uH6BKmXaUW0Py_pEM6lDLh1fbNDMeedDCLJ60sEyRBeuFfoYDl4qoGHas4nm-62seonNDXRwXUNE5AcU0zSXL42M5Hb4rxoI4uiQczCbV-xPtdU1JFMlgbGCCfuloJuS6VOgPwKkZICjxtu54pwbGov1OGB0cIJrRfkdNbIpV1S3BDSuRmvIhX_plSFlw0wzyJdy8Gxn_7WGC-Ewh0L-I0lRxMshd9tBVH5iY7h48aEOUysSdF9FGl1CEPboYMAUuF2SBQgIE3i70cPgGKAGboAHvbvg1xiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4KqsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRY4MyG3PigjgOaCSFodHRwczovL3d3dy5nb2RyZWpuZXctbGF1bmNoLmNvbS-xCbp_j5eioQLPyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g0uaHR0cHM6Ly93d3cuZ29kcmVqbmV3LWxhdW5jaC5jb20vP2dhZF9zb3VyY2U9MrgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXXkGCYzhhXea6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYAiAAEgInZPD_BwE&num=2&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_1Enec-4oFiA5nggtTHLtuhrBxJzg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Godrej Properties Limited Hyderabad is a Leading Real Estate Developer in India.":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Crcx7fJlmaM_NFs-ojMwPt8-6gQjTnoWLgAHpt-HqpBRkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb2DkPg9qQJRJ8-DpStJPqgDBMgDCqoEmgJP0Nr7hyrmYZYYC18hZ0XqvtP_geJMF5m33ouMd0L8Nhfj_FutwhZ-CsunbefH2k4O7r341eRHeobIfxH4dQRmByzwlI_g0vu6lG3x5uhnZKDwyU1IIca1uH6BKmXaUW0Py_pEM6lDLh1fbNDMeedDCLJ60sEyRBeuFfoYDl4qoGHas4nm-62seonNDXRwXUNE5AcU0zSXL42M5Hb4rxoI4uiQczCbV-xPtdU1JFMlgbGCCfuloJuS6VOgPwKkZICjxtu54pwbGov1OGB0cIJrRfkdNbIpV1S3BDSuRmvIhX_plSFlw0wzyJdy8Gxn_7WGC-Ewh0L-I0lRxMshd9tBVH5iY7h48aEOUysSdF9FGl1CEPboYMAUuF2SBQgIE3i70cPgGKAGboAHvbvg1xiQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4KqsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRY4MyG3PigjgOaCSFodHRwczovL3d3dy5nb2RyZWpuZXctbGF1bmNoLmNvbS-xCbp_j5eioQLPyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIF0AsSmg0BEqoNAklOyA0B0g0uaHR0cHM6Ly93d3cuZ29kcmVqbmV3LWxhdW5jaC5jb20vP2dhZF9zb3VyY2U9MrgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXXkGCYzhhXea6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYAiAAEgInZPD_BwE&num=2&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_1Enec-4oFiA5nggtTHLtuhrBxJzg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · New Launch
+  - button "My Ad Center"
+  - heading "10X Faster Testing?! Playwright vs Selenium by Kuzzat Altay 33,707 views 9 months ago 58 seconds - play Short" [level=3]:
+    - link "10X Faster Testing?! Playwright vs Selenium by Kuzzat Altay 33,707 views 9 months ago 58 seconds - play Short":
+      - /url: /shorts/eBT4hQscYog
+      - text: 10X Faster Testing?! Playwright vs Selenium
+  - button "Action menu"
+  - text: 33K views •9 months ago
+  - link "Go to channel":
+    - /url: /@Kuzzat
+  - link "Kuzzat Altay":
+    - /url: /@Kuzzat
+  - text: "Selenium #TestAutomation #AI #Playwright #Automation #SoftwareTesting #SoftwareQualityAssurance #SQA #Cypress #QTP ..."
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - heading "Selenium with java Vs Selenium with Python | which language to choose Java or python ??, 19 thousand views - play Short" [level=3]:
+    - link "Selenium with java Vs Selenium with Python | which language to choose Java or python ??":
+      - /url: /shorts/VlGAPuVlzMI
+  - button "More actions"
+  - 'heading "Selenium with Python Or Selenium with Java? Which one to start with? #automationtesting #testers, 45 thousand views - play Short" [level=3]':
+    - 'link "Selenium with Python Or Selenium with Java? Which one to start with? #automationtesting #testers"':
+      - /url: /shorts/UIjVnp5zFag
+  - button "More actions"
+  - heading "Cypress better than Selenium?, 8 thousand views - play Short" [level=3]:
+    - link "Cypress better than Selenium?":
+      - /url: /shorts/ciKyR7FZF5o
+  - button "More actions"
+  - 'heading "Selenium vs Cypress | #AskRaghav, 95 thousand views - play Short" [level=3]':
+    - 'link "Selenium vs Cypress | #AskRaghav"':
+      - /url: /shorts/GKwqLRwQzJM
+  - button "More actions"
+  - heading "Forget Selenium & Puppeteer? One API Does It All - Zyte API Lab Part 2, 344 views - play Short" [level=3]:
+    - link "Forget Selenium & Puppeteer? One API Does It All - Zyte API Lab Part 2":
+      - /url: /shorts/Y9d7eoT5hZE
+  - button "More actions"
+  - 'heading "All Selenium API commands #seleniumwebtesting #automation #testing, 136 views - play Short" [level=3]':
+    - 'link "All Selenium API commands #seleniumwebtesting #automation #testing"':
+      - /url: /shorts/kCiL9qbmvso
+  - button "More actions"
+  - button "Next"
+  - 'heading "API Testing Tutorial # 5 PATCH API Request | POSTMAN API Testing Tutorial 3 minutes, 35 seconds" [level=3]':
+    - 'link "API Testing Tutorial # 5 PATCH API Request | POSTMAN API Testing Tutorial 3 minutes, 35 seconds"':
+      - /url: /watch?v=5G5MJfJe6Ag&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: "API Testing Tutorial # 5 PATCH API Request | POSTMAN API Testing Tutorial"
+  - button "Action menu"
+  - text: 21 views •2 days ago
+  - link "Go to channel":
+    - /url: /@SQAworld
+  - link "SQA World":
+    - /url: /@SQAworld
+  - text: "API #APITesting #SoftwareDevelopment #BeginnersGuide #apitestingtutorial #sqaworld #restapis #restapis #postman ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - 'heading "Selenium test cases using Java to automate shopping website #selenium #project #java #testing #test by ITlearn 360 73,577 views 1 year ago 16 seconds - play Short" [level=3]':
+    - 'link "Selenium test cases using Java to automate shopping website #selenium #project #java #testing #test by ITlearn 360 73,577 views 1 year ago 16 seconds - play Short"':
+      - /url: /shorts/3A6zxSX3nB8
+      - text: "Selenium test cases using Java to automate shopping website #selenium #project #java #testing #test"
+  - button "Action menu"
+  - text: 73K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ITlearn360
+  - link "ITlearn 360":
+    - /url: /@ITlearn360
+  - text: To book demo, please Call us at (800)543-5571 Mail us at training@infotek-solutions.com test case for online shopping website ...
+  - tooltip "tooltip"
+  - heading "Which Selenium Locator is best and Why? | SoftwaretestingbyMKT Questions and Answer | Selenium Java by SoftwaretestingbyMKT 84,055 views 2 years ago 13 seconds - play Short" [level=3]:
+    - link "Which Selenium Locator is best and Why? | SoftwaretestingbyMKT Questions and Answer | Selenium Java by SoftwaretestingbyMKT 84,055 views 2 years ago 13 seconds - play Short":
+      - /url: /shorts/q1TuyFJIX-s
+      - text: Which Selenium Locator is best and Why? | SoftwaretestingbyMKT Questions and Answer | Selenium Java
+  - button "Action menu"
+  - text: 84K views •2 years ago
+  - link "Go to channel":
+    - /url: /@SoftwaretestingbyMKT
+  - link "SoftwaretestingbyMKT":
+    - /url: /@SoftwaretestingbyMKT
+  - text: I work in the IT industry as a Senior Software QA Engineer in Bangalore, India and I have worked on mobile applications, web ...
+  - tooltip "tooltip"
+  - link "Home Interior Cost Calculator":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3cHxfJlmaM_NFs-ojMwPt8-6gQiKwL_lf-m6xbOcE7CQHxADIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGK_qbqAqkCUSfPg6UrST6oAwTIAwqqBJkCT9Da-4cq5mGWGAtfIWdF6r7T_4HiTBeZt96LjHdC_DYX4_xbrcIWfgrLp23nx9pODu69-NXkR3qGyH8R-HUEZgcs8JSP4NL7upRt8eboZ2Sg8MlNSCHGtbh-gSpl2lFtD8v6RDOpQy4dX2zQzHnnQwiyetLBMkQXrhX6GA5eKqBh2rOJ5vutrHqJzQ10cF1DROQHFNM0ly-NjOR2-K8aCOLokHMwm1fsT7XVNSRTJYGxggn7paCbkulToD8CpGSAo8bbueKcGxqL9ThgdHCCa0X5HTWyKVdUxhM0rkJryPcTqrYkZcNqbLVPpzVXZuivYNvrqBdr1ftzQuJVGOrwWT3vc450U9OhAkeuLW448QF_Qh7gKE7RPAOSBQcIE3idjr44oAZugAeVpeU3kAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODMhtz4oI4DmglEaHR0cHM6Ly93d3cubGl2c3BhY2UuY29tL2luL2xhbmRpbmctcGFnZS9ob21lLWludGVyaW9ycy9oeWRlcmFiYWRfbnCxCeG1RyuuGCqYyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsSmg0BEqoNAklOyA0B0g3AAWh0dHBzOi8vd3d3LmxpdnNwYWNlLmNvbS9pbi9sYW5kaW5nLXBhZ2UvaG9tZS1pbnRlcmlvcnMvaHlkZXJhYmFkX25wP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjX2Rpc2NvdmVyeSZ1dG1fY2FtcGFpZ249MjIxOTYxMTEwMjcmdXRtX2Fkc2V0PTE3OTY4NjQ5ODAxMiZ1dG1fYWQ9NzMxNzEyNzc3MDM0JmdhZF9zb3VyY2U9MrgT____________AYgUA7AUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXYZVnsTJRqPW6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYAyAAEgJaH_D_BwE&num=3&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_1wsWvcJ_9bKF0dq0imF6tEZuiBxw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Home Interior Estimator - Livspace":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3cHxfJlmaM_NFs-ojMwPt8-6gQiKwL_lf-m6xbOcE7CQHxADIABg5erjA4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGK_qbqAqkCUSfPg6UrST6oAwTIAwqqBJkCT9Da-4cq5mGWGAtfIWdF6r7T_4HiTBeZt96LjHdC_DYX4_xbrcIWfgrLp23nx9pODu69-NXkR3qGyH8R-HUEZgcs8JSP4NL7upRt8eboZ2Sg8MlNSCHGtbh-gSpl2lFtD8v6RDOpQy4dX2zQzHnnQwiyetLBMkQXrhX6GA5eKqBh2rOJ5vutrHqJzQ10cF1DROQHFNM0ly-NjOR2-K8aCOLokHMwm1fsT7XVNSRTJYGxggn7paCbkulToD8CpGSAo8bbueKcGxqL9ThgdHCCa0X5HTWyKVdUxhM0rkJryPcTqrYkZcNqbLVPpzVXZuivYNvrqBdr1ftzQuJVGOrwWT3vc450U9OhAkeuLW448QF_Qh7gKE7RPAOSBQcIE3idjr44oAZugAeVpeU3kAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAeCqrECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAfKurECqAf8y7ECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWODMhtz4oI4DmglEaHR0cHM6Ly93d3cubGl2c3BhY2UuY29tL2luL2xhbmRpbmctcGFnZS9ob21lLWludGVyaW9ycy9oeWRlcmFiYWRfbnCxCeG1RyuuGCqYyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsSmg0BEqoNAklOyA0B0g3AAWh0dHBzOi8vd3d3LmxpdnNwYWNlLmNvbS9pbi9sYW5kaW5nLXBhZ2UvaG9tZS1pbnRlcmlvcnMvaHlkZXJhYmFkX25wP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjX2Rpc2NvdmVyeSZ1dG1fY2FtcGFpZ249MjIxOTYxMTEwMjcmdXRtX2Fkc2V0PTE3OTY4NjQ5ODAxMiZ1dG1fYWQ9NzMxNzEyNzc3MDM0JmdhZF9zb3VyY2U9MrgT____________AYgUA7AUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXYZVnsTJRqPW6FwYoADAAOAHQGAHwGAE&gclid=EAIaIQobChMIz_uH3PigjgMVTxSDAx23py6AEAEYAyAAEgJaH_D_BwE&num=3&cid=CAASFeRos6xENAyJkh8gTrG6x9hb6OCY9w&sig=AOD64_1wsWvcJ_9bKF0dq0imF6tEZuiBxw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · Livspace
+  - button "My Ad Center"
+  - 'heading "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds" [level=3]':
+    - 'link "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆 11 minutes, 18 seconds"':
+      - /url: /watch?v=X08AwI35xdo&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: "Playwright vs Selenium: What Advantages Make Playwright the Winner in Automation Testing Battle 🏆"
+  - button "Action menu"
+  - text: 56K views •1 year ago
+  - link "Go to channel":
+    - /url: /@ExecuteAutomation
+  - link "Execute Automation":
+    - /url: /@ExecuteAutomation
+  - text: Discover the ultimate winner in the automation battle as we explore the compelling advantages that propel Playwright to victory ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: 11 chapters
+  - button "Introduction | Playwright Modern and Speed | Native Parallel execution support | Auto-waiting Mechanism | Native Playwright Tests | Reporting and Custom Reporting | Playwright Configurations | Wide Range of Testing supports | UI Mode, CodeGen, VSCode plugin, Trace viewer and more | ARIA locator support | Playwright frequent releases and more ..."
+  - button "More"
+  - 'heading "Never Miss 5 Tips for Selenium interviews #AskRaghav by Automation Step by Step 57,305 views 2 years ago 51 seconds - play Short" [level=3]':
+    - 'link "Never Miss 5 Tips for Selenium interviews #AskRaghav by Automation Step by Step 57,305 views 2 years ago 51 seconds - play Short"':
+      - /url: /shorts/6V7udcrPueg
+      - text: "Never Miss 5 Tips for Selenium interviews #AskRaghav"
+  - button "Action menu"
+  - text: 57K views •2 years ago
+  - link "Go to channel":
+    - /url: /@RaghavPal
+  - link "Automation Step by Step":
+    - /url: /@RaghavPal
+  - img "Verified":
+    - paragraph
+  - text: 1. Make sure you have good understanding of the Selenium and its components, including Selenium WebDriver, Selenium IDE, ...
+  - tooltip "tooltip"
+  - link:
+    - /url: /@RaghavPal
+  - link "Automation Step by Step Verified @RaghavPal•559K subscribers Simple Basic Beginners Step-by-Step tutorials ❤️ I create videos on Automation, Testing, DevOps, CI and related tools, ...":
+    - /url: /@RaghavPal
+    - text: Automation Step by Step
+    - img "Verified":
+      - paragraph
+    - text: "@RaghavPal•559K subscribers Simple Basic Beginners Step-by-Step tutorials ❤️ I create videos on Automation, Testing, DevOps, CI and related tools, ..."
+  - link "Subscribe":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DSelenium%252BAPI%26continue_action%3DQUFFLUhqbGVSZjY3S2xhWVhoU25FZkcyd0l4dXBQeThIZ3xBQ3Jtc0tsNUpoc1hNTFZ5VHRpdkJXQ2s0Sl9lS0FWQ1R1NlU4ZzBKNXZYcEtsUktXMWtjUTJUYUxISVU2SmIwMDhBU2xwVWpUcVB1MHgxMzZlUGVRcHlPb0J2OTBYeWxXdjliVm9EcHFCeWR2Nk1IZkRBX3lCRDlVbzBkd2ZwVENuSk1JQWNvV0NGblFtcXVuSWI0SFg5RDV2SDc5dTdEbURKVUthek5GVk95RlQxaElCM3l3NWxoVVBTbDE0OWdnd0Fya2xsOXVWai0&hl=en
+  - heading "Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA by SoftwareSchool - Coding Tutorials In Telugu 45,630 views 1 year ago 53 seconds - play Short" [level=3]:
+    - link "Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA by SoftwareSchool - Coding Tutorials In Telugu 45,630 views 1 year ago 53 seconds - play Short":
+      - /url: /shorts/zC5XPp9v1uE
+      - text: Selenium Tutorial (Real-time Work) Automation Testing, Selenium Java, Python, Software Testing, QA
+  - button "Action menu"
+  - text: 45K views •1 year ago
+  - link "Go to channel":
+    - /url: /@software-school
+  - link "SoftwareSchool - Coding Tutorials In Telugu":
+    - /url: /@software-school
+  - text: automation, selenium, qa, software testing, selenium tutorial for beginners, selenium tutorial, automation testing, selenium java, ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - heading "Automation Testing Mock Interview For 3-5 YOE (Manual Testing +Java + Selenium +TestNG + Frameworks) 50 minutes" [level=3]:
+    - link "Automation Testing Mock Interview For 3-5 YOE (Manual Testing +Java + Selenium +TestNG + Frameworks) 50 minutes":
+      - /url: /watch?v=gGWuzTPSJ8Y&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: Automation Testing Mock Interview For 3-5 YOE (Manual Testing +Java + Selenium +TestNG + Frameworks)
+  - button "Action menu"
+  - text: 708K views •3 years ago
+  - link "Go to channel":
+    - /url: /@sdetpavan
+  - link "SDET- QA":
+    - /url: /@sdetpavan
+  - img "Verified":
+    - paragraph
+  - text: Automation Testing Mock Interview For 3-5 YOE (Manual Testing +Java + Selenium +TestNG + Frameworks) ...
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - text: 23 moments
+  - button "Acceptance Criteria | What Is an Integration Testing | Performance Testing | Regression Testing | Important Features from Java Which You Use in Your Automation | Java Features that We Are Using in Automation | Encapsulation | Difference between Set and List in Java | Final Keyword | Coding Related Questions | Ternary Operator in Java | Why Use Weight Statements | Expected Conditions | Document Object Model | Disadvantages with the Absolute Xpath | What Is the Use of Javascript Executor Java Script Executor | Mouse Operations | Hybrid Driven Framework | How Frequently You Run Your Automation Cases | How Many Bugs So Far You Found through Automation | How Many Test Cases You Have Automated | Benefits of Maven Project | How Frequently You Check in Your Code in Github on Daily Basis or Weekly"
+  - button "More"
+  - heading "Selenium Vs API Testing by The Testing Academy 12,900 views 1 year ago 48 seconds - play Short" [level=3]:
+    - link "Selenium Vs API Testing by The Testing Academy 12,900 views 1 year ago 48 seconds - play Short":
+      - /url: /shorts/0lmUgZXLDTg
+      - text: Selenium Vs API Testing
+  - button "Action menu"
+  - text: 12K views •1 year ago
+  - link "Go to channel":
+    - /url: /@TheTestingAcademy
+  - link "The Testing Academy":
+    - /url: /@TheTestingAcademy
+  - img "Verified":
+    - paragraph
+  - text: "Roadmap To Become an Automation Tester: In this video, we are going to learn about the ROADMAP to become an Automation ..."
+  - tooltip "tooltip"
+  - heading "How To Explain Test Automation Framework In Interviews For Selenium 13 minutes, 42 seconds" [level=3]:
+    - link "How To Explain Test Automation Framework In Interviews For Selenium 13 minutes, 42 seconds":
+      - /url: /watch?v=28mX8Xn_Big&pp=ygUMU2VsZW5pdW0gQVBJ
+      - text: How To Explain Test Automation Framework In Interviews For Selenium
+  - button "Action menu"
+  - text: 628K views •4 years ago
+  - link "Go to channel":
+    - /url: /@Mukeshotwani
+  - link "Mukesh otwani":
+    - /url: /@Mukeshotwani
+  - img "Verified":
+    - paragraph
+  - text: In this video, I dive deep into effectively explaining your Selenium test automation framework during interviews. Whether you're ...
+  - tooltip "tooltip"
+```
