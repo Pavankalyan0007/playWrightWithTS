@@ -47,10 +47,13 @@ export default defineConfig({
       viewport: null, // Optional: Customize window size
       // baseURL: 'https://your-site.com',  // Optional: Add baseURL
       baseURL: 'https://www.google.com/',
-      screenshot:'only-on-failure',
+      screenshot:'on',
       testIdAttribute:'data-selected-links',
       actionTimeout: 10000,
-      video:'retain-on-failure'
+      video:'retain-on-failure',
+      // launchOptions :{
+      //   args:['---start-maximized']
+      // }
   },
 
   /* Configure projects for major browsers */
@@ -88,7 +91,10 @@ export default defineConfig({
     /* Test against branded browsers. */
     {
       name: 'Microsoft Edge',
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
+      use: { ...devices['Desktop Edge'], 
+       channel: 'msedge',
+      viewport : {width :1536 , height: 327} },
+      
     },
   //  {
   //     name: 'Google Chrome',

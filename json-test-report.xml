@@ -1,13 +1,11 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="10.033877">
-<testsuite name="Chapter5\PageObjectMobleExample.spec.ts" timestamp="2025-07-03T17:52:48.669Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.631" errors="0">
-<testcase name="page object model in playwright" classname="Chapter5\PageObjectMobleExample.spec.ts" time="6.631">
-<properties>
-<property name="slow" value="">
-</property>
-</properties>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.843554000000005">
+<testsuite name="Chapter6\Mockaing_HRA_Data_Test.spec.ts" timestamp="2025-07-04T15:34:21.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="23.565" errors="0">
+<testcase name="Mock API from HAR file in playwright" classname="Chapter6\Mockaing_HRA_Data_Test.spec.ts" time="23.565">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Chapter5-PageObjectMobleEx-be58f--object-model-in-playwright-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter6-Mockaing_HRA_Data-709a9-from-HAR-file-in-playwright-Microsoft-Edge\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter6-Mockaing_HRA_Data-709a9-from-HAR-file-in-playwright-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>

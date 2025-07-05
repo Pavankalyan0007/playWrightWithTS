@@ -68,47 +68,44 @@
   },
   "suites": [
     {
-      "title": "Chapter5\\PageObjectMobleExample.spec.ts",
-      "file": "Chapter5/PageObjectMobleExample.spec.ts",
+      "title": "Chapter6\\Mockaing_HRA_Data_Test.spec.ts",
+      "file": "Chapter6/Mockaing_HRA_Data_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "page object model in playwright",
+          "title": "Mock API from HAR file in playwright",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 360000,
-              "annotations": [
-                {
-                  "type": "slow"
-                }
-              ],
+              "timeout": 120000,
+              "annotations": [],
               "expectedStatus": "passed",
               "projectId": "Microsoft Edge",
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 5,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6631,
+                  "duration": 23565,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-03T17:52:49.617Z",
-                  "annotations": [
-                    {
-                      "type": "slow"
-                    }
-                  ],
+                  "startTime": "2025-07-04T15:34:22.594Z",
+                  "annotations": [],
                   "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\PLAYWRIGHTWITHTYPESCRIPTS\\test-results\\Chapter6-Mockaing_HRA_Data-709a9-from-HAR-file-in-playwright-Microsoft-Edge\\test-finished-1.png"
+                    },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "E:\\PLAYWRIGHTWITHTYPESCRIPTS\\test-results\\Chapter5-PageObjectMobleEx-be58f--object-model-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "E:\\PLAYWRIGHTWITHTYPESCRIPTS\\test-results\\Chapter6-Mockaing_HRA_Data-709a9-from-HAR-file-in-playwright-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -116,9 +113,9 @@
               "status": "expected"
             }
           ],
-          "id": "bc307ac6979fddb8899d-043b85dd651c81d377c6",
-          "file": "Chapter5/PageObjectMobleExample.spec.ts",
-          "line": 4,
+          "id": "cdb53554c5b0a7ace97b-de761acc1a742a01f515",
+          "file": "Chapter6/Mockaing_HRA_Data_Test.spec.ts",
+          "line": 7,
           "column": 5
         }
       ]
@@ -126,8 +123,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-03T17:52:47.491Z",
-    "duration": 10033.877,
+    "startTime": "2025-07-04T15:34:20.532Z",
+    "duration": 26843.554000000004,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

@@ -1,9 +1,9 @@
-import { test, expect } from "@playwright/test";
+// import { test, expect } from "@playwright/test";
 //import { HomePage } from "../../src/pages/HomePage";
-import { HomePage } from "../../src/pages/HomePage";
-test("page object model in playwright", async ({ page }) => {
+import { test} from "../../src/fixtures/TestFixtures";
+test("page object model in playwright", async ({ page,homePage }) => {
     test.slow();
-    const homePage= new HomePage(page);
+    // const homePage= new HomePage(page);
     await homePage.goToURL();
-    await homePage.searchKey(`${process.env.SEARCH_KEYWORD}`);
+    await homePage.searchWithKeywords(`${process.env.SEARCH_KEYWORD}`);
   });
