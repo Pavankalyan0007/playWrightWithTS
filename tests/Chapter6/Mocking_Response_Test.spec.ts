@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 /**
  * Author Testers Talk
  */
-test('Mock API Response in playwright', async ({ page }) => {
+test('Mock API Response in playwright',  {tag:'@Mock'},async ({ page }) => {
 
     // Mock API request
     await page.route('*/**/api/v1/fruits', async route => {

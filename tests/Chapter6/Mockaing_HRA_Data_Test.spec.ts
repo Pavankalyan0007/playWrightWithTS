@@ -16,8 +16,6 @@ test('Mock API from HAR file in playwright', async ({ page }) => {
     // Validate text
     await expect(page.getByText('Strawberry')).toBeVisible();
     await expect(page.getByText('pavan kalyan soppa')).toBeVisible();
-//     await expect(page.getByText('playwright javascript by testers talk')).toBeVisible();
-//     await expect(page.getByText('cypress by testers talk')).toBeVisible();
-//     await expect(page.getByText('api testing by testers talk')).toBeVisible();
+
 await page.waitForTimeout(20000);
 });
